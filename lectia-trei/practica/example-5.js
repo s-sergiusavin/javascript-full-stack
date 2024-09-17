@@ -11,7 +11,7 @@ whitespace character. The script should work for any line.
 
 const string = "   Welcome to the future";
 
-const words = string.split(' ');
+const words = string.trim().split(' ');
 console.log(words)
 
 if (words.length > 1) {
