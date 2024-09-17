@@ -1,7 +1,5 @@
-console.log([1,3,5] === [1,3,5])
-
-console.log([] === [])
-
-const clients = ['Mango', 'Polly', 'Ajax'];
-
+const clients = ["Mango", "Poly", "Ajax"];
 console.log(clients[0]);
+
+console.log(["Mango", "Poly", "Ajax"] === ["Mango", "Poly", "Ajax"])
+console.log([] === [])

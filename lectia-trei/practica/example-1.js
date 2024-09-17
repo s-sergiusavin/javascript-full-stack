@@ -8,3 +8,15 @@
 6. Insert "Country" and "Reggae" at the beginning of the array.
 */
 
+const genres = ["Jazz", "Blues"];
+
+genres.push("Rock and Roll");
+console.log(genres)
+
+console.log(genres[0]);
+console.log(genres.length);
+console.log(genres[genres.length - 1]);
+console.log(genres.shift());
+console.log(genres);
+genres.unshift("Country", "Reggae");
+console.log(genres);
