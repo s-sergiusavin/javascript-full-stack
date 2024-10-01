@@ -15,16 +15,6 @@ Write the following functions:
 ```js
 // Solution
 function createProduct(partialProduct, callback) {
-  const product = { id: Date.now(), ...partialProduct };
-  callback(product);
-}
-
-function logProduct(product) {
-  console.log(product);
-}
-
-function logTotalPrice(product) {
-  console.log(product.price * product.quantity);
 }
 
 createProduct({ name: "🍎", price: 30, quantity: 3 }, logProduct);
@@ -50,32 +40,14 @@ const account = {
   username: "Jacob",
   balance: 400,
   withdraw(amount, onSuccess, onError) {
-    if (amount > TRANSACTION_LIMIT) {
-      onError(`Amount should not exceed ${TRANSACTION_LIMIT} credits`);
-    } else if (amount > this.balance) {
-      onError(`Amount can't exceed account balance of ${this.balance} credits`);
-    } else {
-      this.balance -= amount;
-      onSuccess(`Account balance: ${this.balance}`);
-    }
   },
   deposit(amount, onSuccess, onError) {
-    if (amount > TRANSACTION_LIMIT) {
-      onError(`Amount should not exceed ${TRANSACTION_LIMIT} credits`);
-    } else if (amount <= 0) {
-      onError(`Amount must be more than 0 credits`);
-    } else {
-      this.balance += amount;
-      onSuccess(`Account balance: ${this.balance}`);
-    }
   },
 };
 
 function handleSuccess(message) {
-  console.log(`✅ Success! ${message}`);
 }
 function handleError(message) {
-  console.log(`❌ Error! ${message}`);
 }
 
 account.withdraw(2000, handleSuccess, handleError);
@@ -97,11 +69,6 @@ of callback call.
 ```js
 // Solution
 function each(array, callback) {
-  const newArr = [];
-  for (const el of array) {
-    newArr.push(callback(el));
-  }
-  return newArr;
 }
 
 console.log(
@@ -137,16 +104,12 @@ Make the code refactoring using arrow functions.
 
 ```js
 function createProduct(partialProduct, callback) {
-  const product = { id: Date.now(), ...partialProduct };
-  callback(product);
 }
 
 function logProduct(product) {
-  console.log(product);
 }
 
 function logTotalPrice(product) {
-  console.log(product.price * product.quantity);
 }
 
 createProduct({ name: "🍎", price: 30, quantity: 3 }, logProduct);
@@ -164,32 +127,14 @@ const account = {
   username: "Jacob",
   balance: 400,
   withdraw(amount, onSuccess, onError) {
-    if (amount > TRANSACTION_LIMIT) {
-      onError(`Amount should not exceed ${TRANSACTION_LIMIT} credits`);
-    } else if (amount > this.balance) {
-      onError(`Amount can't exceed account balance of ${this.balance} credits`);
-    } else {
-      this.balance -= amount;
-      onSuccess(`Account balance: ${this.balance}`);
-    }
   },
   deposit(amount, onSuccess, onError) {
-    if (amount > TRANSACTION_LIMIT) {
-      onError(`Amount should not exceed ${TRANSACTION_LIMIT} credits`);
-    } else if (amount <= 0) {
-      onError(`Amount must be more than 0 credits`);
-    } else {
-      this.balance += amount;
-      onSuccess(`Account balance: ${this.balance}`);
-    }
   },
 };
 
 function handleSuccess(message) {
-  console.log(`✅ Success! ${message}`);
 }
 function handleError(message) {
-  console.log(`❌ Error! ${message}`);
 }
 
 account.withdraw(2000, handleSuccess, handleError);
@@ -207,11 +152,6 @@ Make the code refactoring using arrow functions.
 
 ```js
 function each(array, callback) {
-  const newArr = [];
-  for (const el of array) {
-    newArr.push(callback(el));
-  }
-  return newArr;
 }
 
 console.log(
@@ -247,10 +187,6 @@ Make the code refactoring using `forEach` method and arrow functions.
 
 ```js
 function logItems(items) {
-  console.log(items);
-  for (let i = 0; i < items.length; i += 1) {
-    console.log(`${i + 1} - ${items[i]}`);
-  }
 }
 
 logItems(["Mango", "Poly", "Ajax"]);
@@ -263,11 +199,6 @@ Make the code refactoring using `forEach` method and arrow functions.
 
 ```js
 function printContactsInfo({ names, phones }) {
-  const nameList = names.split(",");
-  const phoneList = phones.split(",");
-  for (let i = 0; i < nameList.length; i += 1) {
-    console.log(`${nameList[i]}: ${phoneList[i]}`);
-  }
 }
 
 printContactsInfo({
@@ -282,11 +213,6 @@ Make the code refactoring using `forEach` method and arrow functions.
 
 ```js
 function calсulateAverage(...args) {
-  let total = 0;
-  for (let i = 0; i < args.length; i++) {
-    total += args[i];
-  }
-  return total / args.length;
 }
 
 console.log(calсulateAverage(1, 2, 3, 4)); // 2.5
