@@ -2,1589 +2,1586 @@ const articles = [
   {
     source: {
       id: null,
-      name: 'CNET',
-    },
-    author: 'Sarah Lord',
-    title: 'Formula 1 Racing 2023: How to Watch and Livestream the Italian GP Today - CNET',
-    description: 'Max Verstappen can clinch his record-setting 10th straight victory today.',
-    url: 'https://www.cnet.com/tech/services-and-software/formula-1-racing-2023-how-to-watch-and-livestream-the-italian-gp-today/',
-    urlToImage:
-      'https://www.cnet.com/a/img/resize/ce6f5151f68c7fdbeda3196e6ceeb274fb425e98/hub/2022/06/17/43ee687d-ae78-4299-b68d-829a60914212/gettyimages-1403515237.jpg?auto=webp&fit=crop&height=675&width=1200',
-    publishedAt: '2023-09-03T10:00:07Z',
-    content:
-      "Red Bull's Max Verstappen won his ninth consecutive race last week, tying Sebastian Vettel's 2013 record. He can make history this week by winning the Italian Grand Prix. Verstappen's Red Bull team h… [+8438 chars]",
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Brendan Griffiths',
-    title: 'Free Italian Monza F1 live stream: Where to watch Formula 1 GP online from anywhere',
-    description:
-      "Looking to watch the Italian Monza Formula 1 GP today? You're in luck, as there are multiple free F1 live stream options. And we can help you watch one from anywhere in the world.",
-    url: 'https://www.businessinsider.com/guides/streaming/where-to-watch-italian-monza-f1-live-stream-free-2023',
-    urlToImage: 'https://i.insider.com/64f45cb31b7ced0019c77da0?width=1200&format=jpeg',
-    publishedAt: '2023-09-03T10:39:43Z',
-    content:
-      "When you buy through our links, Insider may earn an affiliate commission. Learn more\r\nWe can help you find everything you need to watch a free F1 live stream of the Italian Monza GP today. We've test… [+7093 chars]",
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Brendan Griffiths',
-    title: 'Free Singapore F1 live stream: Where to watch Formula 1 GP online from anywhere',
-    description:
-      "Looking to watch the Singapore Formula 1 GP today? You're in luck, as there are multiple free F1 live stream options. And we can help you watch one from anywhere in the world.",
-    url: 'https://www.businessinsider.com/guides/streaming/where-to-watch-singapore-f1-live-stream-free-2023',
-    urlToImage: 'https://i.insider.com/6506c6b6cd637c0019c66914?width=1200&format=jpeg',
-    publishedAt: '2023-09-17T09:33:02Z',
-    content:
-      'When you buy through our links, Insider may earn an affiliate commission. Learn more\r\nThe season might have said its goodbyes to Europe for the year, but we can help you say hello to a free F1 live s… [+7083 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Demofox.org',
-    },
-    author: 'demofox2',
-    title: 'Inverting Gauss’ Formula',
-    description:
-      'There’s a famous story where Gauss was asked to sum the integers from 1 to 100 in elementary school. He noticed a pattern and came up with a formula to sum 1 to N in constant time (source: Th…',
-    url: 'https://blog.demofox.org/2023/08/21/inverting-gauss-formula/',
-    urlToImage: 'https://demofox2.files.wordpress.com/2023/08/image-8.png',
-    publishedAt: '2023-08-22T05:50:12Z',
-    content:
-      'There’s a famous story where Gauss was asked to sum the integers from 1 to 100 in elementary school. He noticed a pattern and came up with a formula to sum 1 to N in constant time (source: https://ww… [+9060 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Grace Dean',
-    title:
-      "Elon Musk sent a picture of Grimes having a C-section to her father and brothers, leaving her 'horrified,' and him 'clueless' about why she was upset",
-    description:
-      '"It was Elon\'s Asperger\'s coming out in full," Grimes told Elon Musk\'s biographer. "He was just clueless about why I\'d be upset."',
-    url: 'https://www.businessinsider.com/elon-musk-grimes-c-section-photo-father-brothers-x-birth-2023-9',
-    urlToImage: 'https://i.insider.com/650052014717fd0019fc9995?width=1200&format=jpeg',
-    publishedAt: '2023-09-12T15:18:22Z',
-    content:
-      'nullGilbert Carrasquillo/Getty Images\r\n<ul><li>Elon Musk sent a picture of Grimes having a C-section to their friends and family, a new book details.</li><li>"He was just clueless about why I\'d be up… [+2362 chars]',
-  },
-  {
-    source: {
-      id: 'abc-news',
-      name: 'ABC News',
-    },
-    author: 'Sasha Pezenik, Sony Salzman',
-    title: 'FDA sends warning letter to 3 major formula makers over quality control concerns',
-    description:
-      'The FDA has just sent new warning letters to three formula companies, red-flagging quality control concerns.',
-    url: 'https://abcnews.go.com/US/fda-sends-warning-letter-3-major-formula-makers/story?id=102821276',
-    urlToImage:
-      'https://s.abcnews.com/images/Health/baby-formula-shortage-gty-rc-220725_1658785893697_hpMain_16x9_992.jpg',
-    publishedAt: '2023-08-31T18:32:21Z',
-    content:
-      'The FDA has sent warning letters to three formula companies, red-flagging concerns about serious quality control issues at some manufacturing facilities.\r\nThe warning letters were all sent Wednesday … [+7519 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Demofox.org',
-    },
-    author: 'demofox2',
-    title: 'Permutation Iteration and Random Access',
-    description:
-      'This post has an interesting link to the last one (Inverting Gauss’ Formula). The last post was focused on adding all the numbers from 1 to N, this post will feature multiplying all the numbe…',
-    url: 'https://blog.demofox.org/2023/08/22/permutation-iteration-and-random-access/',
-    urlToImage: 'https://demofox2.files.wordpress.com/2023/08/image-9.png',
-    publishedAt: '2023-08-23T06:23:36Z',
-    content:
-      'This post has an interesting link to the last one (Inverting Gauss’ Formula). The last post was focused on adding all the numbers from 1 to N, this post will feature multiplying all the numbers from … [+10837 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'CNET',
-    },
-    author: 'Sarah Lord',
-    title: 'Formula 1 Racing 2023: How to Watch and Livestream the Singapore GP Today - CNET',
-    description:
-      'Max Verstappen is looking to extend his win streak to an unprecedented 11 in a row.',
-    url: 'https://www.cnet.com/tech/services-and-software/formula-1-racing-2023-how-to-watch-and-livestream-the-singapore-gp-today/',
-    urlToImage:
-      'https://www.cnet.com/a/img/resize/ce6f5151f68c7fdbeda3196e6ceeb274fb425e98/hub/2022/06/17/43ee687d-ae78-4299-b68d-829a60914212/gettyimages-1403515237.jpg?auto=webp&fit=crop&height=675&width=1200',
-    publishedAt: '2023-09-17T06:00:03Z',
-    content:
-      "Red Bull's Max Verstappen won his 10th consecutive race last week, beating Sebastian Vettel's 2013 record. He will be looking to extend his record-breaking streak to 11 this week in the Singapore Gra… [+8557 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'CNET',
-    },
-    author: 'Sarah Lord',
-    title: 'Formula 1 Racing 2023: How to Watch and Livestream the Dutch GP Today - CNET',
-    description: 'The second half of the F1 season starts today.',
-    url: 'https://www.cnet.com/tech/services-and-software/formula-1-racing-2023-how-to-watch-and-livestream-the-dutch-gp-today/',
-    urlToImage:
-      'https://www.cnet.com/a/img/resize/ce6f5151f68c7fdbeda3196e6ceeb274fb425e98/hub/2022/06/17/43ee687d-ae78-4299-b68d-829a60914212/gettyimages-1403515237.jpg?auto=webp&fit=crop&height=675&width=1200',
-    publishedAt: '2023-08-27T10:00:03Z',
-    content:
-      'F1 racing is back from summer break with Red Bull leading the charge. The team has yet to lose a race in 2023, while lead driver Max Verstappen is on a seven race win streak. He has a comfortable lea… [+8669 chars]',
-  },
-  {
-    source: {
-      id: 'the-verge',
-      name: 'The Verge',
-    },
-    author: 'Kevin Nguyen',
-    title: 'Time to revisit the original ‘Battle Royale’',
-    description:
-      'Twenty years later, you can still see the bloody fingerprints of one violent Japanese film on pop culture today. Kinji Fukasaku cult hit streams this month on the Criterion Channel.',
-    url: 'https://www.theverge.com/23851408/battle-royale-revisited-hunger-games-fortnite-squid-game-criterion',
-    urlToImage:
-      'https://cdn.vox-cdn.com/thumbor/spUrTxlOBYsHVSk1V82qKW22cAc=/0x0:1920x1080/1200x628/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/24882647/BATTLE_ROYALE_fg_33839_0067_Layer_98.jpg',
-    publishedAt: '2023-09-01T13:00:00Z',
-    content:
-      'Chiaki Kuriyama plays one of the students forced to fight to the death in Battle Royale. | Image: The Criterion Channel\r\n\n \n\n\n Twenty years later, you can still see the bloody fingerprints of one vio… [+5510 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Grace Kay',
-    title:
-      'Elon Musk pictured for the first time with Neuralink director and the twins they quietly had together',
-    description:
-      "Author Walter Isaacson shared a rare peek into Elon Musk's relationship with one of the mothers of his children, Shivon Zilis, who works at Neuralink.",
-    url: 'https://www.businessinsider.com/elon-musk-photo-twins-with-neuralink-shivon-zilis-2023-9',
-    urlToImage: 'https://i.insider.com/64f8928204e14000196cda4a?width=1200&format=jpeg',
-    publishedAt: '2023-09-06T17:39:55Z',
-    content:
-      "Walter Isaacson shared a new picture of Elon Musk with Shivon Zilis and their two children.Clive Mason - Formula 1/Formula 1 via Getty Image\r\n<ul>\n<li>Walter Isaacson shared a peek into Elon Musk's r… [+3213 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Elizabeth Blackstock',
-    title: 'RACEWKND Magazine Remains One Of The Finest Formula 1 Publications Around',
-    description:
-      'The world of motorsport media can get a little boring. So many publications have spent decades telling the same story in different ways, when they should be taking advantage of the fact that this high-adrenaline sport warrants experimentation and innovation. …',
-    url: 'https://jalopnik.com/racewknd-one-of-the-finest-formula-1-magazines-1850796450',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/3fe213bcc38aa08c6de452658e468224.jpg',
-    publishedAt: '2023-09-04T14:30:00Z',
-    content:
-      'The world of motorsport media can get a little boring. So many publications have spent decades telling the same story in different ways, when they should be taking advantage of the fact that this hig… [+2452 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Elizabeth Blackstock',
-    title: 'Formula 1 Owners Are Stuck Marketing A Sport After They Sold Us Entertainment',
-    description:
-      'At the 2023 Italian Grand Prix, Max Verstappen of Red Bull Racing became the Formula 1 driver with the most consecutive wins in history. Of the 14 races run so far this year, Verstappen has won 12 of them; his teammate Sergio Perez has won the remaining two. …',
-    url: 'https://jalopnik.com/formula-1-liberty-media-marketing-sport-entertainment-1850812398',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/8abc1939d17d01e7652162ad49130322.jpg',
-    publishedAt: '2023-09-07T14:00:00Z',
-    content:
-      'At the 2023 Italian Grand Prix, Max Verstappen of Red Bull Racing became the Formula 1 driver with the most consecutive wins in history. Of the 14 races run so far this year, Verstappen has won 12 of… [+5768 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Owen Bellwood',
-    title: 'Ferrari Formula 1 Driver Chases Down Thieves For Stealing His $540,000 Watch',
-    description:
-      'For once, Ferrari formula 1 driver Carlos Sainz seemed to have a pretty good weekend at the Italian Grand Prix in Monza. He put his car on pole in qualifying and came in third after holding off a late challenge from teammate Charles LecLerc. But his weekend t…',
-    url: 'https://jalopnik.com/ferrari-formula-1-driver-chases-down-thieves-for-steali-1850807808',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d5bb785e6f9878253e9a342440273a1c.jpg',
-    publishedAt: '2023-09-06T16:00:00Z',
-    content:
-      'For once, Ferrari formula 1 driver Carlos Sainz seemed to have a pretty good weekend at the Italian Grand Prix in Monza. He put his car on pole in qualifying and came in third after holding off a lat… [+1524 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Deadspin',
-    },
-    author: 'Field Level Media',
-    title: 'Playoff hopefuls meet as Jewell Loyd, Storm face Sky',
-    description:
-      'The winning formula for the Seattle Storm is easy to figure out: Get Jewell Loyd cooking and find ways to get stops defensively.Read more...',
-    url: 'https://deadspin.com/playoff-hopefuls-meet-as-jewell-loyd-storm-face-sky-1850760137',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/7639f6c196ceeebd460af87f21cfd89e.jpg',
-    publishedAt: '2023-08-21T23:11:43Z',
-    content:
-      'The winning formula for the Seattle Storm is easy to figure out: Get Jewell Loyd cooking and find ways to get stops defensively.\r\nThat worked out Sunday night in Minneapolis, where Loyd went off for … [+1702 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Pete Syme',
-    title:
-      'FTX is hoping to claw back the millions of dollars spent on celebrity promotions including Shaq and Naomi Osaka',
-    description:
-      'FTX is looking into whether it can recover millions paid to celebrities like Naomi Osaka and Shaq as part of Chapter 11 bankruptcy.',
-    url: 'https://www.businessinsider.com/ftx-wants-to-reclaim-millions-from-celebrity-sponsorships-shaq-osaka-2023-9',
-    urlToImage: 'https://i.insider.com/6500392e4717fd0019fc8bd0?width=1200&format=jpeg',
-    publishedAt: '2023-09-12T11:24:21Z',
-    content:
-      "Sam Bankman-Fried and Shaquille O'Neal.Michael M. Santiago/Getty Images; Megan Briggs/Getty Images\r\n<ul><li>FTX is hoping to recover the millions it paid in sponsorships.</li><li>Shaquille O'Neal and… [+2076 chars]",
-  },
-  {
-    source: {
-      id: 'espn',
-      name: 'ESPN',
-    },
-    author: 'Mike Coppinger',
-    title: 'Sources: De Los Santos steps in as Stevenson foe',
-    description:
-      'Shakur Stevenson and Edwin De Los Santos have agreed to a deal for a Nov. 16 fight in Las Vegas after undefeated contender Frank Martin decided not to proceed with a bout against Stevenson, sources told ESPN.',
-    url: 'https://www.espn.com/boxing/story/_/id/38393043/shakur-stevenson-gets-edwin-de-los-santos-new-matchup-sources-say',
-    urlToImage:
-      'https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0409%2Fr1156415_1296x729_16%2D9.jpg',
-    publishedAt: '2023-09-13T18:20:38Z',
-    content:
-      'Shakur Stevenson and Edwin De Los Santos have agreed to a deal for a Nov. 16 fight in Las Vegas for the vacant WBC lightweight title, sources told ESPN.\r\nThe 135-pound title bout will headline a Top … [+1678 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'IndieWire',
-    },
-    author: 'Samantha Bergeson',
-    title:
-      'Keanu Reeves Buckles Up for Racing Hulu Series ‘Brawn: The Impossible Formula 1 Story’ — See the First Look',
-    description:
-      'Reeves hosts a four-part docuseries about the 2009 Formula 1 World Championship that saw an underdog team win.',
-    url: 'https://www.indiewire.com/news/general-news/keanu-reeves-brawn-the-impossible-formula-1-story-first-look-1234899081/',
-    urlToImage: 'https://www.indiewire.com/wp-content/uploads/2023/08/Keanu_Jensen_00982.jpg',
-    publishedAt: '2023-08-24T23:00:00Z',
-    content:
-      'Keanu Reeves is steering into a new direction with upcoming Hulu series “Brawn: The Impossible Formula One Story.” \r\nA U.K. Original series, “Brawn” will debut on Disney+ globally outside of the U.S.… [+1948 chars]',
-  },
-  {
-    source: {
-      id: 'bleacher-report',
-      name: 'Bleacher Report',
-    },
-    author: 'Scott Polacek',
-    title: 'Daniel Ricciardo out of F1 Dutch Grand Prix with Hand Injury After Crash in Practice',
-    description:
-      "Daniel Ricciardo will not participate in Sunday's Dutch Grand Prix. Formula 1 announced Friday that the Alpha Tauri driver suffered an injury during practice…",
-    url: 'https://bleacherreport.com/articles/10087270-daniel-ricciardo-out-of-f1-dutch-grand-prix-with-hand-injury-after-crash-in-practice',
-    urlToImage:
-      'https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1692985453/ccszhc4ntqrhttybhsph.jpg',
-    publishedAt: '2023-08-25T17:45:03Z',
-    content:
-      "Peter Fox/Getty Images\r\nDaniel Ricciardo will not participate in Sunday's Dutch Grand Prix.\r\nFormula 1 announced Friday that the Alpha Tauri driver suffered an injury during practice and will be repl… [+380 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'MakeUseOf',
-    },
-    author: 'Ifeanyi Iheagwara',
-    title: 'How to Use the RANDARRAY Function to Randomly Sort Data in Excel',
-    description:
-      'Want to add a little excitement to your data analysis? Learn how to use the RANDARRAY function to randomly sort your data in Excel.',
-    url: 'https://www.makeuseof.com/use-randarray-function-excel/',
-    urlToImage:
-      'https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/untitled-design-2.jpg',
-    publishedAt: '2023-08-31T16:46:25Z',
-    content:
-      'There are many different functions available in Excel that make data transformation and organization easy. One of these functions is the RANDARRAY Function, which allows you to randomize your data ef… [+6209 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Autoblog',
-    },
-    author: 'Bloomberg',
-    title: "Max Verstappen loves the Netflix boost to F1, but not the added 'spice'",
-    description:
-      "Filed under:\n Motorsports,TV/Movies\n Continue reading Max Verstappen loves the Netflix boost to F1, but not the added 'spice'\nMax Verstappen loves the Netflix boost to F1, but not the added 'spice' originally appeared on Autoblog on Sat, 2 Sep 2023 08:00:00 E…",
-    url: 'https://www.autoblog.com/2023/09/02/max-verstappen-loves-the-netflix-boost-to-f1-but-not-the-added-spice/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.yimg.com/os/creatr-uploaded-images/2023-08/44fc8580-4844-11ee-ba5f-838f8c6b71e8',
-    publishedAt: '2023-09-02T12:00:00Z',
-    content:
-      'Netflixs "Drive to Survive" documentary series has elevated Formula 1 drivers and officials to global super-stardom, bringing in a whole new demographic of fans. Yet Max Verstappen isnt its biggest f… [+1861 chars]',
-  },
-  {
-    source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      name: "Roc-lang.org",
     },
     author: null,
-    title: 'Every team met spending rules last season - FIA',
+    title:
+      "Why doesn't Roc have a Maybe or Option or Optional, or null or nil or undefined?",
     description:
-      "Governing body the FIA confirms all 10 Formula 1 teams complied with the sport's cost cap in 2022.",
-    url: 'https://www.bbc.co.uk/sport/formula1/66717932',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/16D30/production/_130988439_gettyimages-1564790294.jpg',
-    publishedAt: '2023-09-05T11:10:10Z',
-    content:
-      "The FIA introduced the cost cap in 2021 as part of a bid to level the playing field in the sport\r\nAll Formula 1 teams complied with the sport's cost cap in 2022, governing body the FIA has said.\r\nThe… [+2364 chars]",
-  },
-  {
-    source: {
-      id: 'the-next-web',
-      name: 'The Next Web',
-    },
-    author: 'Linnea Ahlgren',
-    title: 'Bankrupt ebike startup VanMoof finds buyer in F1’s McLaren Applied',
-    description:
-      'VanMoofers, rejoice — the ebike gods have not abandoned you. Yesterday, McLaren Applied and its escooter department Lavoie announced they had agreed to purchase the bankrupt ebike startup.  The details of the deal have not been made public. However, the F1 en…',
-    url: 'https://thenextweb.com/news/bankrupt-ebike-startup-vanmoof-f1-mclaren-applied',
-    urlToImage:
-      'https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F09%2Fvanmoof-yellow.jpg&signature=5f705bc51dddea12591f46b77a141155',
-    publishedAt: '2023-09-01T10:50:51Z',
-    content:
-      'VanMoofers, rejoice the ebike gods have not abandoned you. Yesterday, McLaren Applied and its escooter department Lavoie announced they had agreed to purchase the bankrupt ebike startup. \r\nThe detail… [+3193 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'MakeUseOf',
-    },
-    author: 'Ifeanyi Iheagwara',
-    title: 'How to Use the TAKE and DROP Functions in Excel',
-    description:
-      'Learn how to precisely extract and manipulate your data, making Excel work smarter for you.',
-    url: 'https://www.makeuseof.com/how-to-use-take-and-drop-functions-in-excel/',
-    urlToImage:
-      'https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/08/untitled-design-1-3.jpg',
-    publishedAt: '2023-09-14T13:01:26Z',
-    content:
-      'When working with your dataset in Microsoft Excel, there are occasions when you need to analyze only a portion of the data. Thankfully, Excel provides the TAKE and DROP functions for situations like … [+5000 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'PetaPixel',
-    },
-    author: 'Matt Growcoot',
-    title: 'F1 Posts Old Footage of Camera Flying off Car and Destroying the Car Behind',
-    description:
-      'Formula 1 has shared an old video showing the astonishing moment a camera attached to the rear wing of a Ferrari came loose and struck the other Ferrari following behind.\n[Read More]',
-    url: 'https://petapixel.com/2023/09/11/f1-posts-old-footage-of-camera-flying-off-car-and-destroying-the-car-behind/',
-    urlToImage: 'https://petapixel.com/assets/uploads/2023/09/Camera-Hits-F1-Car.jpg',
-    publishedAt: '2023-09-11T12:51:42Z',
-    content:
-      'Ferrari driver Gerhard Berger was lucky the camera hit his car and not his head in 1995. | Formula 1\r\nFormula 1 has shared an old video showing the astonishing moment a camera attached to the rear wi… [+1920 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Impulsetrain.com',
-    },
-    author: null,
-    title: 'Porter/Duff Compositing and Blend Modes (2013)',
-    description: 'Comments',
-    url: 'http://ssp.impulsetrain.com/porterduff.html',
+      "Frequently asked questions about the Roc programming language.",
+    url: "https://www.roc-lang.org/faq.html#option-type",
     urlToImage: null,
-    publishedAt: '2023-09-04T22:04:41Z',
+    publishedAt: "2024-10-24T11:13:12Z",
     content:
-      'In the Porter/Duff compositing algebra, images are equipped with an\r\nalpha channel that determines on a per-pixel basis whether the image\r\nis there or not. When the alpha channel is 1, the image is f… [+6797 chars]',
+      "The Roc programming language is named after a mythical bird.\r\nThe Roc logo\r\nA purple origami bird made of six triangles\r\nThat's why the logo is a bird. Its specifically an origami bird as an homage\r\n… [+33760 chars]",
   },
   {
     source: {
       id: null,
-      name: 'The A.V. Club',
+      name: "Github.io",
     },
-    author: 'Mary Kate Carr',
-    title: 'Adam Driver goes full speed ahead in Michael Mann’s Ferrari trailer',
-    description:
-      'Adam Driver lives up to the prophecy of his name in Ferrari, the new historical drama from Michael Mann. The actor, who has clearly never met an old, nearly washed-up Italian character he didn’t like, stars as the former Formula 1 racer and automobile entrepr…',
-    url: 'https://www.avclub.com/adam-driver-goes-full-speed-ahead-in-michael-mann-s-fer-1850787395',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/32e5bde3d6baaccef39c516376f355fd.png',
-    publishedAt: '2023-08-30T15:52:15Z',
+    author: "Shafik Yaghmour",
+    title: "Triaging Clang C++ front end bugs",
+    description: "Blog about C++, C, Undefined Behavior and Compilers",
+    url: "https://shafik.github.io/c++/llvm/2024/10/17/triaging-clang-fronend-bugs.html",
+    urlToImage: "https://shafik.github.io/static/img/avatar.jpg",
+    publishedAt: "2024-10-19T14:24:08Z",
     content:
-      'Adam Driver lives up to the prophecy of his name in Ferrari, the new historical drama from Michael Mann. The actor, who has clearly never met an old, nearly washed-up Italian character he didnt like,… [+2340 chars]',
+      "Triaging clang C++ frontend bugs\r\nI have been triaging clang C++ frontend bugs for about a couple of years now and I wanted to share some of the lessons I have learnt in the hopes that others in the … [+14477 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Ryan Erik King',
-    title: 'Lewis Hamilton Staying In F1 With Mercedes Through 2025',
-    description:
-      'The Mercedes-AMG Petronas F1 Team has announced that Lewis Hamilton and George Russell will remain with the team through the 2025 Formula 1 season. The pair of agreements keep the driver duo locked in at Mercedes until the end of the current rules cycle. Merc…',
-    url: 'https://jalopnik.com/lewis-hamilton-staying-in-f1-with-mercedes-through-2025-1850791776',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/4196e37e960be5d5f1e0e6f27fa25877.jpg',
-    publishedAt: '2023-08-31T14:40:00Z',
-    content:
-      'The Mercedes-AMG Petronas F1 Team has announced that Lewis Hamilton and George Russell will remain with the team through the 2025 Formula 1 season. The pair of agreements keep the driver duo locked i… [+1321 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Elizabeth Blackstock',
-    title: 'Las Vegas Is More Of A Motorsport City Than You’d Expect',
-    description:
-      'I’ll be the first to admit that I’ve been skeptical about Formula 1’s upcoming Las Vegas Grand Prix, but as the race itself approaches and after a high-energy 30-hour trip to Vegas to check out all things F1, I have to say: I’ve changed my mind. About some th…',
-    url: 'https://jalopnik.com/las-vegas-is-the-perfect-city-for-formula-1-1850796413',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/8108e703054ea279772b770f025a1cb8.jpg',
-    publishedAt: '2023-09-04T13:00:00Z',
-    content:
-      'Ill be the first to admit that Ive been skeptical about Formula 1s upcoming Las Vegas Grand Prix, but as the race itself approaches and after a high-energy 30-hour trip to Vegas to check out all thin… [+2650 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Bradley Brownell',
-    title:
-      'NASCAR Truck Racer Who Works As A Server At Outback Steakhouse Gets Outback Steakhouse Sponsorship',
-    description:
-      'Racing driver Stephen Mallozzi has recently come on the media scene as one of the most interesting stories in racing. While he started racing in karts as a nine-year-old, and at one point was racing— albeit on a much smaller budget — against the likes of Form…',
-    url: 'https://jalopnik.com/nascar-racer-works-outback-steakhouse-gets-sponsorship-1850840161',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/aeebc52a7edfea96094d2d60df45bab9.jpg',
-    publishedAt: '2023-09-14T20:35:00Z',
-    content:
-      'Racing driver Stephen Mallozzi has recently come on the media scene as one of the most interesting stories in racing. While he started racing in karts as a nine-year-old, and at one point was racing … [+2035 chars]',
-  },
-  {
-    source: {
-      id: 'bleacher-report',
-      name: 'Bleacher Report',
-    },
-    author: 'Joseph Zucker',
-    title: "Italian F1 GP 2023 Results: Max Verstappen Wins, Breaks Sebastian Vettel's Streak",
-    description:
-      "Maybe it's time to start leading with who finished second in each Formula 1 race. Max Verstappen made it 10 wins in a row Sunday in the Italian Grand Prix in…",
-    url: 'https://bleacherreport.com/articles/10088159-italian-f1-gp-2023-results-max-verstappen-wins-breaks-sebastian-vettels-streak',
-    urlToImage:
-      'https://media.bleacherreport.com/image/upload/x_129,y_0,w_1514,h_1009,c_crop/c_fill,g_faces,w_3800,h_2000,q_95/v1693750460/kdcjfspxq7comdn30ijo.jpg',
-    publishedAt: '2023-09-03T14:47:18Z',
-    content:
-      "Mario Renzi - Formula 1/Formula 1 via Getty Images\r\nMaybe it's time to start leading with who finished second in each Formula 1 race.\r\nMax Verstappen made it 10 wins in a row Sunday in the Italian Gr… [+5794 chars]",
-  },
-  {
-    source: {
-      id: 'bleacher-report',
-      name: 'Bleacher Report',
-    },
-    author: 'Scott Polacek',
-    title: "Singapore F1 GP 2023 Results: Max Verstappen's Win Streak Snapped by Carlos Sainz Jr.",
-    description:
-      'It turns out someone besides Max Verstappen is allowed to win a Formula 1 race. And so is another team besides Red Bull. For the first time in 2023, a non-Red…',
-    url: 'https://bleacherreport.com/articles/10089765-singapore-f1-gp-2023-results-max-verstappens-win-streak-snapped-by-carlos-sainz-jr',
-    urlToImage:
-      'https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1694958697/y8chhrvludz5o7rve69c.jpg',
-    publishedAt: '2023-09-17T13:58:48Z',
-    content:
-      'LILLIAN SUWANRUMPHA/AFP via Getty Images\r\nIt turns out someone besides Max Verstappen is allowed to win a Formula 1 race.\r\nAnd so is another team besides Red Bull.\r\nFor the first time in 2023, a non-… [+4287 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Uncrate.com',
-    },
-    author: 'Uncrate',
-    title: 'Atari 2600+',
-    description:
-      'Vintage gamers can now play all their favorite titles on one system. While the exterior looks the same, the Atari 2600+ reimagines the classic console to support modern use. It comes with a 10-in-1 game cartridge featuring iconic titles like...',
-    url: 'https://uncrate.com/atari-2600/',
-    urlToImage: 'https://uncrate.com/p/2023/08/atari-2600-plus.jpg',
-    publishedAt: '2023-08-28T18:18:47Z',
-    content:
-      "Skincare doesn't have to be complicated. The Protagonist packs a whole routine in one little jar. The all-in-one serum contains 14 active ingredients to do the work of multiple products, streamlining… [+408 chars]",
-  },
-  {
-    source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      name: "Liblisa.nl",
     },
     author: null,
-    title: 'Haas team to retain Hulkenberg and Magnussen',
+    title: "LibLISA – Instruction Discovery and Analysis on x86-64",
     description:
-      'The Haas team will keep Nico Hulkenberg and Kevin Magnussen as their drivers for a second Formula 1 season in 2024.',
-    url: 'https://www.bbc.co.uk/sport/formula1/66600477',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/06C0/production/_130882710_gettyimages-1486504067.jpg',
-    publishedAt: '2023-08-24T08:01:46Z',
+      "libLISA derives x86-64 instruction semantics bottom-up from CPU behavior. The semantics are machine-readable and CPU-specific.",
+    url: "https://liblisa.nl/",
+    urlToImage: "https://liblisa.nl/logo.png",
+    publishedAt: "2024-10-24T07:35:56Z",
     content:
-      'Kevin Magnussen (left) and Nico Hulkenberg (right) will remain with the Haas team in 2024\r\nThe Haas team will keep Nico Hulkenberg and Kevin Magnussen as their drivers for a second Formula 1 season i… [+2781 chars]',
+      "libLISA is a tool that can fully automatically scan instruction space, discover instructions and synthesize their semantics.\r\n It produces machine-readable, CPU-specific x86-64 instruction semantics.… [+3202 chars]",
   },
   {
     source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      id: null,
+      name: "Haxx.se",
+    },
+    author: "Daniel Stenberg",
+    title: "UndefinedBehaviorSanitizer's Unexpected Behavior",
+    description: "Comments",
+    url: "https://daniel.haxx.se/blog/2024/10/17/undefinedbehaviorsanitizers-unexpected-behavior/",
+    urlToImage: null,
+    publishedAt: "2024-10-17T08:20:34Z",
+    content:
+      "The transition from Ubuntu 22 to 24 for ubuntu-latest on GitHub actions started recently with the associated version bumps of a lot of applications. As expected.\r\nOne of the version bumps is for clan… [+6201 chars]",
+  },
+  {
+    source: {
+      id: "abc-news",
+      name: "ABC News",
+    },
+    author: "Olivia Rubin",
+    title: "Georgia judge invalidates more controversial election rules",
+    description:
+      'A Georgia judge determined that seven new rules passed by the GOP-controlled state election board were "unlawful and void."',
+    url: "https://abcnews.go.com/Politics/georgia-judge-invalidates-controversial-election-rules/story?id=114875224",
+    urlToImage:
+      "https://i.abcnewsfe.com/a/4320a71d-f2db-4b0b-bf4f-f01a4552f056/georgia-vote-election-rt-lv-241016_1729122226491_hpMain_16x9.jpg?w=1600",
+    publishedAt: "2024-10-16T23:59:27Z",
+    content:
+      'One day after a Georgia judge invalidated the state\'s controversial "hand count" rule, a separate judge Wednesday evening invalidated even more rules that were passed by the Republican-led state elec… [+1239 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Ahti.space",
     },
     author: null,
-    title: "Red Bull 'very difficult' to catch before 2026 - Leclerc",
-    description:
-      'Ferrari\'s Charles Leclerc says it will be "very, very difficult" to catch Red Bull before the end of the current set of Formula 1 regulations in 2025.',
-    url: 'https://www.bbc.co.uk/sport/formula1/66607917',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/2F6B/production/_130893121_maxcharles.jpg',
-    publishedAt: '2023-08-24T16:24:55Z',
+    title: "Self-referential variable initialization in C",
+    description: "Comments",
+    url: "https://microblog.ahti.space/nortti/self-referential-initialization-c/",
+    urlToImage: null,
+    publishedAt: "2024-10-14T01:34:42Z",
     content:
-      "Charles Leclerc (left) finished third behind Red Bull's Sergio Perez (right) and race winner Max Verstappen (centre, right) at the Belgium Grand Prix before the summer break\r\nFerrari's Charles Lecler… [+4106 chars]",
+      "2024-10-11I was reading the SDL Shader Language\r\nQuickstart,\r\nwhich (at the moment) mostly consists of explanations about how the\r\nlanguage differs from C.\r\nOne difference listed caught my eye: varia… [+1357 chars]",
   },
   {
     source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      id: null,
+      name: "Terinstock.com",
+    },
+    author: "Terin Stock",
+    title: "Assembling a Game Boy Game with Meson",
+    description: "Adding a new 'language' to the Meson build system for RGBDS.",
+    url: "https://terinstock.com/post/2024/10/Assembling-a-Game-Boy-Game-with-Meson/",
+    urlToImage:
+      "https://terinstock.com/media/52/1726b132b398a4215c6b7a75f6d5e1226da4a3b7817414768800533764ada6.png",
+    publishedAt: "2024-11-08T23:59:18Z",
+    content:
+      "I’ve been working on a Game Boy game off-and-on for the last few months (hopefully more details about this soon!). Up until recently I was building the game with GNU Make, but I was frustrated with c… [+6364 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "9to5Mac",
+    },
+    author: "Ryan Christoffel",
+    title:
+      "iPhone SE isn’t known for new tech, but one cutting edge upgrade is coming",
+    description:
+      "No one knows what the ‘SE’ in iPhone SE really stands for. But we do know one thing: Apple’s SE devices aren’t known for introducing brand new tech. That’s set to change this spring, though, when the new iPhone SE is expected to come with one cutting edge upg…",
+    url: "https://9to5mac.com/2024/10/16/iphone-se-isnt-known-for-new-tech-but-one-cutting-edge-upgrade-is-coming/",
+    urlToImage:
+      "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/08/2025-iPhone-SE.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    publishedAt: "2024-10-16T19:17:35Z",
+    content:
+      "No one knows what the SE in iPhone SE really stands for. But we do know one thing: Apples SE devices arent known for introducing brand new tech. Thats set to change this spring, though, when the new … [+2291 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Circle-lang.org",
     },
     author: null,
-    title: 'Hamilton has ‘unfinished business’ in F1',
-    description:
-      'Lewis Hamilton says his decision to sign a new contract with Mercedes was motivated by the fact he and the team have "unfinished business" in Formula 1.',
-    url: 'https://www.bbc.co.uk/sport/formula1/66674434',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/8A61/production/_130952453_lewis_hamilton_monza_getty.jpg',
-    publishedAt: '2023-08-31T16:22:27Z',
+    title: "Why Safety Profiles Failed",
+    description: "Comments",
+    url: "https://www.circle-lang.org/draft-profiles.html",
+    urlToImage: null,
+    publishedAt: "2024-10-24T21:26:09Z",
     content:
-      "Lewis Hamilton lost the 2021 drivers' championship on the final lap of the season when he was passed by Max Verstappen\r\nLewis Hamilton says his decision to sign a new contract with Mercedes was motiv… [+5996 chars]",
-  },
-  {
-    source: {
-      id: 'bleacher-report',
-      name: 'Bleacher Report',
-    },
-    author: 'Mike Chiari',
-    title: "Lewis Hamilton, Mercedes Agree to New Contract Until 2025 amid F1's 2023 Season",
-    description:
-      "Formula One announced Thursday that superstar driver Lewis Hamilton agreed to a new contract that will keep him with Mercedes until 2025. Hamilton's contract…",
-    url: 'https://bleacherreport.com/articles/10087859-lewis-hamilton-mercedes-agree-to-new-contract-until-2025-amid-f1s-2023-season',
-    urlToImage:
-      'https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1693484146/y79zfbobdfmmzworv8su.jpg',
-    publishedAt: '2023-08-31T12:16:35Z',
-    content:
-      'Dursun Aydemir/Anadolu Agency via Getty Images\r\nFormula One announced Thursday that superstar driver Lewis Hamilton agreed to a new contract that will keep him with Mercedes until 2025.\r\nFormula 1@F1… [+856 chars]',
+      "1 Abstract\r\nAs for dangling pointers and for ownership, this model\r\ndetects all possible errors. This means that we can guarantee\r\nthat a program is free of uses of invalidated pointers.\r\n A brief in… [+36931 chars]",
   },
   {
     source: {
       id: null,
-      name: 'The A.V. Club',
+      name: "Yahoo Entertainment",
     },
-    author: 'Mary Kate Carr',
-    title: '"Rich Men North Of Richmond" is #1 again amid country chart domination',
+    author: "David Lawder",
+    title:
+      "IMF lifts US growth forecast but marks down China; sees lackluster global economy",
     description:
-      'Popular music has never been completely separate from politics, but the Billboard charts have rarely felt so directly tied to reactionary conservative emotion than it has this summer. Oliver Anthony’s “Rich Men North Of Richmond” just took the number one spot…',
-    url: 'https://www.avclub.com/rich-men-north-of-richmond-1-second-week-1850781609',
+      "The International Monetary Fund on Tuesday raised its 2024 economic growth forecasts for the U.S., Brazil and Britain but cut them for China, Japan and the...",
+    url: "https://uk.finance.yahoo.com/news/imf-lifts-us-growth-forecast-130301388.html",
     urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/5488a287f48e15d447ebc3955f2b41be.png',
-    publishedAt: '2023-08-28T20:25:49Z',
+      "https://media.zenfs.com/en/reuters.com/eee1055606f8f11edda9b27a2526909c",
+    publishedAt: "2024-10-22T13:03:01Z",
     content:
-      'Popular music has never been completely separate from politics, but the Billboard charts have rarely felt so directly tied to reactionary conservative emotion than it has this summer. Oliver Anthonys… [+2544 chars]',
+      "By David Lawder\r\nWASHINGTON (Reuters) - The International Monetary Fund on Tuesday raised its 2024 economic growth forecasts for the U.S., Brazil and Britain but cut them for China, Japan and the eur… [+4753 chars]",
   },
   {
     source: {
-      id: 'espn',
-      name: 'ESPN',
+      id: null,
+      name: "Habr.com",
+    },
+    author: "shengnan",
+    title:
+      "Дуалистичная типовая система JavaScript VS Единая объектная система Python. Краткий обзор",
+    description:
+      "Сегодня поговорим о объектах, объектной архитектуре и способах взаимодействия с ними на примере языков программирования Python и JavaScript. Получилось небольшое исследование, противопоставляющее прототипирование и ООП.Давайте разбираться! Читать далее",
+    url: "https://habr.com/ru/articles/853760/#post-content-body",
+    urlToImage:
+      "https://habr.com/share/publication/853760/e999a4af39370fe6bed6e32c9edd1263/",
+    publishedAt: "2024-10-27T07:10:11Z",
+    content:
+      ", !\r\n Python JavaScript. , . , , .\r\n . - ( , ), / - , . \r\n ! \r\n, , « » : \r\n<ul><li> JS \r\n</li><li>- (Python)\r\n</li><li>, (, Go, Rust)\r\n</li></ul> , Python JavaScript.\r\n JavaScript\r\n JavaScript : ( ) … [+1970 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Hackaday",
+    },
+    author: "Jonathan Bennett",
+    title:
+      "This Week in Security: Quantum RSA Break, Out of Scope, and Spoofing Packets",
+    description:
+      "Depending on who you ask, the big news this week is that quantum computing researchers out of China have broken RSA. And that’s true… sort of. There are multiple caveats, like the fact …",
+    url: "https://hackaday.com/2024/10/18/this-week-in-security-quantum-rsa-break-out-of-scope-and-spoofing-packets/",
+    urlToImage: "https://hackaday.com/wp-content/uploads/2016/01/darkarts.jpg",
+    publishedAt: "2024-10-18T14:00:38Z",
+    content:
+      "Depending on who you ask, the big news this week is that quantum computing researchers out of China have broken RSA. And that’s true… sort of. There are multiple caveats, like the fact that this proo… [+7280 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Microsoft.com",
+    },
+    author: "Raymond Chen",
+    title:
+      "On the limits of time travel in the face of undefined behavior in C",
+    description:
+      "C imposes some constraints, but the principle is mostly still there.\nThe post On the limits of time travel in the face of undefined behavior in C appeared first on The Old New Thing.",
+    url: "https://devblogs.microsoft.com/oldnewthing/20241104-00/?p=110466",
+    urlToImage:
+      "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
+    publishedAt: "2024-11-04T15:00:00Z",
+    content:
+      "Some time ago, I noted that undefined behavior can result in time travel. Specifically, that once undefined behavior occurs, the undefined behavior extends to the entire program, even the parts that … [+2023 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Igalia.com",
     },
     author: null,
-    title: 'Pound-for-pound rankings: Which fighter made the biggest move? Marshall? Mayer?',
+    title: "Compiling Bigloo Scheme to WebAssembly",
     description:
-      "Lots of fights, lots of movement and new faces in the top 10. Here's the latest women's pound-for-pound rankings.",
-    url: 'https://www.espn.com/boxing/story/_/id/38333562/women-boxing-pound-pound-rankings-which-fighter-made-biggest-move-savannah-marshall-mikaela-mayer',
-    urlToImage:
-      'https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0905%2Fr1220496_1296x729_16%2D9.jpg',
-    publishedAt: '2023-09-06T12:05:36Z',
+      "An exploration of compiling Scheme and potentially JavaScript to WebAssembly.",
+    url: "https://blogs.igalia.com/compilers/2023/05/10/compiling-bigloo-scheme-to-webassembly/",
+    urlToImage: null,
+    publishedAt: "2024-10-16T04:14:59Z",
     content:
-      'Mikaela Mayer moved up one division for a second consecutive fight, this time to face Silvia Bortot at junior welterweight (catchweight of 142 pounds) in a fight she dominated, winning all 10 rounds.… [+5447 chars]',
+      "Compiling Bigloo Scheme to WebAssembly\r\nIn the JavaScript world, browser implementations have focused on JIT compilation as a high-performance implementation technique. Recently, new applications of … [+13499 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Slickdeals.net',
+      name: "Thoughtcatalog.com",
     },
-    author: 'Addax',
+    author: "Molly Burford",
     title:
-      '12-Quart Mobil 1 Full Synthetic Motor Oil: FS European Car Formula 0W-40 $49 & More + Free S/H',
+      "7 Signs You’re In A Situationship (And It Won’t Become Something More)",
     description:
-      'Update: This popular deal is still available \n \nWalmart has *Select 12-Quart Mobil 1 Full Synthetic Motor Oil* for $59 - $10 Off w/ promo code WOWFRESH = *$49*. *Shipping is free*. \n \nThanks...',
-    url: 'https://slickdeals.net/f/16811927-12-quart-mobil-1-full-synthetic-motor-oil-fs-european-car-formula-0w-40-49-more-free-s-h',
-    urlToImage: 'https://static.slickdealscdn.com/attachment/4/5/4/3/2/5/14096867.attach',
-    publishedAt: '2023-08-21T20:31:39Z',
-    content:
-      'HOLY SNAP! this is a good deal!i bought the 3pack for $71 and submitted the rebate and got my refund in maybe within a week.\\this was the best $/qt ratio combined with rebate.i saw this big tank deal… [+220 chars]',
-  },
-  {
-    source: {
-      id: 'espn',
-      name: 'ESPN',
-    },
-    author: 'ESPN staff',
-    title: 'College football Week 1 Power Rankings: Where did Coach Prime and Colorado debut?',
-    description:
-      'ESPN writers rank the best teams in college football after Week 1 of the 2023 season.',
-    url: 'https://www.espn.com/college-football/story/_/id/38314862/espn-2023-college-football-power-rankings-week-1-colorado-deion-sanders',
+      "A situationship is considered to be a casual, undefined relationship that can actually be harder to define than you might realize. The reason you may not realize you’re in a situationship, as…",
+    url: "https://thoughtcatalog.com/molly-burford/2024/11/7-signs-youre-in-a-situationship-and-it-wont-become-something-more/",
     urlToImage:
-      'https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0902%2Fr1219288_1296x729_16%2D9.jpg',
-    publishedAt: '2023-09-05T04:26:06Z',
+      "https://thoughtcatalog.com/wp-content/uploads/2024/10/pexels-katerina-holmes-5911127.jpg?w=1536&h=768&crop=1",
+    publishedAt: "2024-11-12T10:28:09Z",
     content:
-      "Coach Deion Sanders said his Colorado Buffaloes were coming in 2023, and now they've arrived in our Power Rankings.\r\nThe Buffaloes' 45-42 victory in Week 1 at No. 17 TCU, the national runner-up in th… [+21111 chars]",
-  },
-  {
-    source: {
-      id: 'espn',
-      name: 'ESPN',
-    },
-    author: 'Mike Coppinger',
-    title: 'Sources: Stevenson, Martin agree to fall title tilt',
-    description:
-      'Lightweight star Shakur Stevenson and contender Frank Martin have reached a deal for a fall title title bout for the vacant WBC belt, sources tell ESPN.',
-    url: 'https://www.espn.com/boxing/story/_/id/38333260/sources-shakur-stevenson-frank-martin-reach-title-fight-deal',
-    urlToImage:
-      'https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1030%2Fr1083686_1296x729_16%2D9.jpg',
-    publishedAt: '2023-09-05T17:52:18Z',
-    content:
-      'Shakur Stevenson and Frank Martin have agreed to a deal for a lightweight fight that will likely take place on Nov. 16 in Las Vegas or Dec. 9 in New York, sources told ESPN.\r\nThe deal came hours befo… [+1661 chars]',
+      "A situationship is considered to be a casual, undefined relationship that can actually be harder to define than you might realize. The reason you may not realize youre in a situationship, as opposed … [+3218 chars]",
   },
   {
     source: {
       id: null,
-      name: 'MakeUseOf',
-    },
-    author: 'Bolanle Abiodun',
-    title: '9 Excel DATE Functions You Should Know',
-    description:
-      "Want to master Excel's date functions? Here are some essential ones you need to know.",
-    url: 'https://www.makeuseof.com/excel-date-functions/',
-    urlToImage:
-      'https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/05/excel-sum-sigma.jpg',
-    publishedAt: '2023-08-20T12:30:24Z',
-    content:
-      "Excel is more than a tool for basic calculations and data organization; it's also an effective tool for handling and analyzing date-related calculations. You can use Excel's date functions to calcula… [+5990 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: '/FILM',
-    },
-    author: 'staff@slashfilm.com (Rafael Motamayor)',
-    title: 'Loki Season 1 Took Unexpected Inspiration From Teletubbies',
-    description:
-      'Believe it or not, the world of everyone&amp;#39;s favorite little colorful goons, The Teletubbies, played an unlikely inspiration for Loki season 1. It&amp;#39;s true!',
-    url: 'https://www.slashfilm.com/1374326/loki-season-1-teletubbies-inspiration/',
-    urlToImage:
-      'https://www.slashfilm.com/img/gallery/loki-season-1-took-unexpected-inspiration-from-teletubbies/l-intro-1693236084.jpg',
-    publishedAt: '2023-09-12T00:00:13Z',
-    content:
-      '"Loki" remains the best TV show in the Marvel Cinematic Universe a show with a clear vision, great visuals that stood out from the formula of the franchise, and a fantastic and self-contained story t… [+1337 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Autoblog',
-    },
-    author: 'Chris Teague',
-    title: 'Swiss students just set a mind-bending EV acceleration record',
-    description:
-      'Filed under:\n Green,Weird Car News,Electric,Performance\n Continue reading Swiss students just set a mind-bending EV acceleration record\nSwiss students just set a mind-bending EV acceleration record originally appeared on Autoblog on Wed, 13 Sep 2023 11:59:00 …',
-    url: 'https://www.autoblog.com/2023/09/13/swiss-students-just-set-a-mind-bending-ev-acceleration-record/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/09/13075113/Screen-Shot-2023-09-13-at-7.47.47-AM.jpg',
-    publishedAt: '2023-09-13T15:59:00Z',
-    content:
-      'Last year, a team of German students set a world record for the fastest-accelerating electric car, pulling 2.5Gs while reaching 62 mph (100km/h) in a staggering 1.461 seconds. Now, that record has be… [+1623 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Dan DeFrancesco',
-    title: "Insider Today: IPOs' make-or-break moment",
-    description:
-      "Chip design firm Arm's upcoming IPO comes at a critical time for the public markets. Meanwhile, Apple's iPhone 15 will require a new charger.",
-    url: 'https://www.businessinsider.com/arm-ipo-finance-markets-iphone-new-charger-2023-9',
-    urlToImage: 'https://i.insider.com/64f7a9e11b7ced0019c8a11c?width=1200&format=jpeg',
-    publishedAt: '2023-09-06T13:20:08Z',
-    content:
-      "The IPO market has reached a critical juncture.Drew Angerer / Getty\r\n<ul>\n<li>This post originally appeared in the Insider Today newsletter. Sign up here.</li>\n</ul>Halfway to the weekend! Here's a v… [+7545 chars]",
-  },
-  {
-    source: {
-      id: 'la-repubblica',
-      name: 'La Repubblica',
-    },
-    author: 'repubblicawww@repubblica.it (Redazione Repubblica.it)',
-    title: 'Gp Monza 2023: orari e dove vederlo in tv',
-    description: 'La Formula 1 in Italia. Sainz in pole position davanti a Verstappen e Leclerc',
-    url: 'https://www.repubblica.it/sport/formulauno/2023/09/03/news/gp_monza_2023_orari_dove_vedere_f1-413129856/',
-    urlToImage:
-      'https://www.repstatic.it/content/nazionale/img/2023/09/03/102753233-128ca169-183f-4e91-9a26-27f378e9c58d.jpg',
-    publishedAt: '2023-09-03T08:29:11Z',
-    content:
-      'Diretta tv e streaming del Gran Premio dItalia\r\nEvento: Gp dItaliaData: Domenica 3 settembre 2023Dove: Monza, ItaliaOrario: 15:00Canale TV: Sky Sport F1 (207), Sky Sport Summer (201), Sky Sport 4K (2… [+1158 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Food52.com',
-    },
-    author: 'Paul Hagopian',
-    title: 'The Only Margarita Recipe That You Need',
-    description:
-      'Of our 52 most popular cocktails of all time, eight are margaritas. This should surprise no one: Margaritas—when executed well—are perfect. And while all eight of those very popular recipes are fantastic, in practice, you only need one of them. Enter: Erica K…',
-    url: 'https://food52.com/drinks/cocktails/28261-best-margarita-recipe',
-    urlToImage:
-      'https://images.food52.com/PFAtpw8Bsitlvqo64OtdDf97SRw=/fit-in/1200x1200/4504808a-abf7-4117-92e9-87aa22c2b5d7--2021-0603_margarita_3x2_julia-gartland_212.jpg',
-    publishedAt: '2023-09-13T18:05:19Z',
-    content:
-      'Of our 52 most popular cocktails of all time, eight are margaritas. This should surprise no one: Margaritaswhen executed wellare perfect. And while all eight of those very popular recipes are fantast… [+2607 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Digital Trends',
-    },
-    author: 'Giovanni Colantonio',
-    title: 'Super Mario Wonder is more of a transformation than you’re expecting',
-    description:
-      'Based on a transformative hands-on demo, Super Mario Wonder has a lot of surprises in store for longtime Nintendo fans.',
-    url: 'https://www.digitaltrends.com/gaming/super-mario-wonder-hands-on-preview/',
-    urlToImage:
-      'https://www.digitaltrends.com/wp-content/uploads/2023/08/super-mario-wonder-bowser.png?resize=1200%2C630&p=1',
-    publishedAt: '2023-08-31T18:00:12Z',
-    content:
-      'It’s been an unexpected year of change for Mario. The Super Mario Bros. Movie reversed the series’ big-screen fortunes, delivering a blockbuster hit led by (non-Italian) Chris Pratt. More shockingly,… [+8193 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Autoblog',
-    },
-    author: 'Reuters',
-    title: 'Daniel Ricciardo breaks hand in crash, is out for Dutch Grand Prix',
-    description:
-      'Filed under:\n Motorsports,Racing Vehicles\n Continue reading Daniel Ricciardo breaks hand in crash, is out for Dutch Grand Prix\nDaniel Ricciardo breaks hand in crash, is out for Dutch Grand Prix originally appeared on Autoblog on Fri, 25 Aug 2023 21:00:00 EDT.…',
-    url: 'https://www.autoblog.com/2023/08/25/daniel-ricciardo-breaks-hand-in-crash-is-out-for-dutch-grand-prix/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/crop/1814x1020+0+141/resize/800x450!/format/jpg/quality/85/https://s.yimg.com/os/creatr-uploaded-images/2023-08/c1a15b30-43ab-11ee-bf27-0f28d4756e77',
-    publishedAt: '2023-08-26T01:00:00Z',
-    content:
-      "AlphaTauri driver Daniel Ricciardo sustained a broken hand in Friday's practice and will miss this weekend's Dutch Grand Prix, Red Bull advisor Helmut Marko confirmed to Motorsport.com.\r\nMarko said R… [+2942 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'Corriere.it',
-    },
-    author: 'Corriere TV',
-    title:
-      'Max Verstappen sfreccia oltre il limite di velocità in Francia: il video che lo mette nei guai',
-    description: 'Il campione di Formula 1 ripreso al volante di una Aston Martin Valkyrie',
-    url: 'https://video.corriere.it/sport/max-verstappen-sfreccia-oltre-limite-velocita-francia-video-che-mette-guai/b30055d6-41d0-11ee-a028-2032db658f2e',
-    urlToImage:
-      'https://images2.corriereobjects.it/methode_image/Video/2023/08/23/Sport/Foto%20Sport%20-%20Trattate/verstappen_vdg-kU9E--656x369@Corriere-Web-Nazionale.jpg',
-    publishedAt: '2023-08-23T16:42:05Z',
-    content:
-      'Max Verstappen rischia una pesante sanzione in Francia, dopo essere stato ripreso alla guida di un’auto di grossa cilindrata oltre il limite di velocità su un’autostrada francese. Il pilota della Red… [+537 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Brendan Griffiths',
-    title: "Free England vs. Spain live stream: How to watch Women's World Cup final 2023",
-    description:
-      "Don't miss out on a free live stream of England vs. Spain today. Wherever you are in the world, we can help you watch the final featuring two teams hoping to win their first World Cup.",
-    url: 'https://www.businessinsider.com/guides/streaming/free-england-vs-spain-live-stream-womens-world-cup-final-2023',
-    urlToImage: 'https://i.insider.com/64df2ff5bd98a6001978dbc2?width=1200&format=jpeg',
-    publishedAt: '2023-08-20T07:30:01Z',
-    content:
-      "When you buy through our links, Insider may earn an affiliate commission. Learn more\r\nGreat news, if you want a free England vs. Spain live stream today, there is a rich range of options. We'll show … [+6288 chars]",
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Brendan Griffiths',
-    title: "Free Women's World Cup Final live stream: How to watch England vs. Spain from anywhere",
-    description:
-      "Wherever you are in the world, there are plenty of options to watch the Women's World Cup Final for free with our guide. England and Spain will go head-to-head on Sunday.",
-    url: 'https://www.businessinsider.com/guides/streaming/free-womens-world-cup-final-live-stream-how-to-watch-england-vs-spain',
-    urlToImage: 'https://i.insider.com/64df4b9cbd98a6001978ea2c?width=1200&format=jpeg',
-    publishedAt: '2023-08-18T10:50:32Z',
-    content:
-      "When you buy through our links, Insider may earn an affiliate commission. Learn more.\r\nThere are plenty of great options for a free Women's World Cup Final live stream on Sunday. That's right; we can… [+6688 chars]",
-  },
-  {
-    source: {
-      id: 'vice-news',
-      name: 'Vice News',
-    },
-    author: 'Becca Blasdel, Gregory Babcock',
-    title: 'The Best Sunscreen Sticks for Lazy People Who Don’t Want Wrinkles',
-    description:
-      'Remember when you had to fight the urge to run gluesticks all over your face? Now you can—and your skin will thank you for it.',
-    url: 'https://www.vice.com/en/article/ak3j45/best-sunscreen-sticks',
-    urlToImage:
-      'https://video-images.vice.com/articles/64e65074033559ba3849843b/lede/1692823198255-sunscreensticks.jpeg?image-resize-opts=Y3JvcD0xeHc6MXhoO2NlbnRlcixjZW50ZXImcmVzaXplPTEyMDA6KiZyZXNpemU9MTIwMDoq',
-    publishedAt: '2023-08-23T20:50:29Z',
-    content:
-      'Have you been listening? Or are you choosing to ignore us, dermatologists, and plenty of crazed TikTok sunscreen enthusiasts about the merits of wearing SPF every damn day? You can ignore all the cal… [+4283 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Autoblog',
-    },
-    author: 'Joel Stocksdale',
-    title: 'Lotus Type 66 is the Can-Am race car that never was',
-    description:
-      'Filed under:\n Motorsports,Lotus,Automotive History,Racing Vehicles,Classics\n Continue reading Lotus Type 66 is the Can-Am race car that never was\nLotus Type 66 is the Can-Am race car that never was originally appeared on Autoblog on Fri, 18 Aug 2023 20:16:00 …',
-    url: 'https://www.autoblog.com/2023/08/18/lotus-type-66-can-am-race-car-recreation/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/08/18193507/Lotus-Type-66_6-copy.jpg',
-    publishedAt: '2023-08-19T00:16:00Z',
-    content:
-      "Most car reveals for Pebble Beach are all-new luxury and supercars, faithful recreations of classics, or some unique restomods. What Lotus has revealed isn't really any of those. The Type 66, while l… [+1856 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'Autoblog',
-    },
-    author: 'Jonathon Ramsey',
-    title: 'Watch F1 drivers Lewis Hamilton and George Russell toy around at the AMG Playground',
-    description:
-      'Filed under:\n Video,Motorsports,Mercedes-Benz,Coupe,Luxury,Racing Vehicles,Performance,Sedan\n Continue reading Watch F1 drivers Lewis Hamilton and George Russell toy around at the AMG Playground\nWatch F1 drivers Lewis Hamilton and George Russell toy around at…',
-    url: 'https://www.autoblog.com/2023/09/12/f1-drivers-lewis-hamilton-and-george-russell-toy-around-at-the-amg-playground/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/crop/2343x1318+442+284/resize/800x450!/format/jpg/quality/85/https://s.aolcdn.com/os/ab/_cms/2023/09/12091022/hamilton_russell_amg_playground.jpg',
-    publishedAt: '2023-09-12T14:58:00Z',
-    content:
-      "There are 23 Formula 1 races scheduled for the 2023 season, this weekend's tilt is the 16th and takes place in Singapore. No need to wait until the weekend for warm-ups, though, as drivers new and ol… [+1901 chars]",
-  },
-  {
-    source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      name: "Github.io",
     },
     author: null,
-    title: 'George Russell on Lewis Hamilton, chasing Red Bull and finding peace off the track',
-    description:
-      "George Russell tells BBC Sport about his new contract with Mercedes, chasing Red Bull, and Formula 1's sustainability push.",
-    url: 'https://www.bbc.co.uk/sport/formula1/66806812',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/185B8/production/_131086799_georgerussell.jpg',
-    publishedAt: '2023-09-15T07:46:14Z',
+    title: "Local Peer-to-Peer API Draft Community Group Report",
+    description: "Comments",
+    url: "https://WICG.github.io/local-peer-to-peer/",
+    urlToImage: null,
+    publishedAt: "2024-11-04T21:40:51Z",
     content:
-      "Russell (right) and his Mercedes team-mate Lewis Hamilton recently signed new contracts with Mercedes\r\nFor someone who straps himself into a car and hurtles around a track for a living, you'd imagine… [+5258 chars]",
-  },
-  {
-    source: {
-      id: 'la-repubblica',
-      name: 'La Repubblica',
-    },
-    author: 'repubblicawww@repubblica.it (Redazione Repubblica.it)',
-    title: 'Gp di Monza, ecco che cosa mangiano i piloti',
-    description:
-      'Circondati dagli uomini della sicurezza per proteggere la privacy, i campioni della Formula 1 cenano al "De La Ville": le curiosità sulle loro abitudini',
-    url: 'https://www.repubblica.it/il-gusto/2023/09/02/news/gp_di_monza_ecco_che_cosa_mangiano_i_piloti-413040622/',
-    urlToImage:
-      'https://www.repstatic.it/content/contenthub/img/2023/09/02/112632666-32479405-8e03-48f7-924f-b48073ba9df4.jpg',
-    publishedAt: '2023-09-02T09:29:29Z',
-    content:
-      'Il clima è hollywoodiano con la security a filtrare gli ingressi. Chi riesce a passare, magari con una quattro ruote ruggente, ma pur sempre da strade canoniche, è un sospetto pilota, e bombardato di… [+335 chars]',
+      "Note: This specification is under active development and therefore incomplete. If youre looking for an overview of the proposal, please refer to the Explainer.\r\nThis section is non-normative.\r\nThe Lo… [+25315 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Corriere.it',
+      name: "Livedoor.biz",
     },
-    author: 'Gian Luca Bauzano',
-    title: 'Brad Pitt a Monza: atteso al Gran Premio di Formula 1, il circuito diventa set',
+    author: "news4vip2",
+    title: "【画像】広瀬すずさん、また大胆な衣装を着させられるｗｗｗ",
     description:
-      'L’annuncio in occasione dell’evento più atteso dell’anno al circuito lombardo il 3 settembre. Una nuova sfida per la star di Hollywood anche per l’assalto (previsto) dei fan',
-    url: 'https://www.corriere.it/moda/23_agosto_29/brad-pitt-monza-atteso-monza-gran-premio-circuito-diventa-set-53037f56-465c-11ee-94cf-76f12b5af0d1.shtml',
-    urlToImage:
-      'https://images2.corriereobjects.it/methode_image/socialshare/2023/08/29/a675fed4-465c-11ee-94cf-76f12b5af0d1.jpg',
-    publishedAt: '2023-08-29T11:30:33Z',
-    content:
-      'di Gian Luca BauzanoL’annuncio in occasione dell’evento più atteso dell’anno al circuito lombardo il 3 settembre. Una nuova sfida per la star di Hollywood anche per l’assalto (previsto) dei fan \r\nSi … [+2101 chars]',
+      "1: 以下、ニュー速クオリティでお送りします  2023/10/03(火) 06:48:19.31 ID:l3Y8ctjba  えっっっ    https://video.twimg.com/ext_tw_video/1708841925472837632/pu/vid/avc1/720x1280/wlHkcu9iGI8xnADe.mp4?tag=12  引用元: ・undefined",
+    url: "https://news4vip.livedoor.biz/archives/52540589.html",
+    urlToImage: "https://livedoor.blogimg.jp/news4vip2/imgs/1/6/16ec0f87.jpg",
+    publishedAt: "2024-11-04T23:30:47Z",
+    content: "1: 2023/10/03() 06:48:19.31 ID:l3Y8ctjba",
   },
   {
     source: {
       id: null,
-      name: 'Corriere.it',
+      name: "Cheezburger.com",
     },
-    author: 'Federica Bandirali',
-    title: 'Monza, Formula 1: piloti, feste e incontri con il pubblico: tutti gli eventi a Milano',
-    description:
-      'Da Charles Leclerc e Carlos Sainz in San Babila a Lewis Hamilton in Piazza Oberdan. Gli appuntamenti per incontrare e vedere gli assi del volante immergono il capoluogo lombardo nell’atmosfera del Gran Premio di Monza',
-    url: 'https://www.corriere.it/moda/23_agosto_29/monza-formula-1-piloti-feste-incontri-il-pubblico-tutti-eventi-milano-17446eac-45db-11ee-af8a-d4a1657857d8.shtml',
-    urlToImage:
-      'https://images2.corriereobjects.it/methode_image/socialshare/2023/08/28/d00e5776-4645-11ee-94cf-76f12b5af0d1.jpg',
-    publishedAt: '2023-08-29T08:47:22Z',
-    content:
-      'di Federica Bandirali Da Charles Leclerc e Carlos Sainz in San Babila a Lewis Hamilton in Piazza Oberdan. Gli appuntamenti per incontrare e vedere gli assi del volante immergono il capoluogo lombardo… [+1979 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Grace Dean,Grace Kay',
+    author: "Laurent Shinar, Laurent Shinar",
     title:
-      "8 major takeaways from the explosive new book about Elon Musk that lifts the lid on the world's richest person",
+      "26 Giggle-Worthy Cat Memes That Are Best Paired with a Day of Rotting in Bed",
     description:
-      'The book had some eye-popping details — from details on Elon Musk\'s relationship with his father to his "hard core" work ethic and "demon mode."',
-    url: 'https://www.businessinsider.com/new-book-about-elon-musk-walter-isaacson-biography-takeaways-2023-9',
-    urlToImage: 'https://i.insider.com/65034aea992da60019ec9c1b?width=1200&format=jpeg',
-    publishedAt: '2023-09-17T09:24:06Z',
-    content:
-      "Elon Musk (left) allowed Walter Isaacson (right) to shadow him for three years for the biography.Michael Kovac/Getty Images for Vanity Fair\r\n<ul>\n<li>Walter Isaacson's biography on Elon Musk hit shel… [+13843 chars]",
-  },
-  {
-    source: {
-      id: 'polygon',
-      name: 'Polygon',
-    },
-    author: 'Diego Nicolás Argüello',
-    title: 'The 18 most exciting video game releases of fall 2023',
-    description:
-      'After Starfield comes major AAA releases like Mortal Kombat 1 and Assassin’s Creed Mirage as well as other new first-person and third-person games, plus a few must-play indies.',
-    url: 'https://www.polygon.com/2023/9/1/23850620/new-video-games-fall-2023-release-date-schedule',
+      "For some people the weekend represents an opportunity to get out into the world, spread their wings and explore the splendor that this enigmatic Earth has to offer us. However, for the rest of us, the weekend represents a welcome respite from the troubles and…",
+    url: "https://cheezburger.com/37449989/26-giggle-worthy-cat-memes-that-are-best-paired-with-a-day-of-rotting-in-bed",
     urlToImage:
-      'https://cdn.vox-cdn.com/thumbor/1lSTaiWO4NgngRZB7llgzaAmZek=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24882305/fall_2023_games_preview.jpg',
-    publishedAt: '2023-09-01T13:05:07Z',
+      "https://i.chzbgr.com/original/37449989/h13E59CE2/its-side-looking-sassy-me-thinking-about-having-a-little-snack-five-minutes-after-i-said-i-was-full",
+    publishedAt: "2024-10-26T18:00:00Z",
     content:
-      '2023 has been full of the unexpected. The first half of the year was led by a charge of remasters and remakes, like Metroid Prime Remastered and Dead Space, that actually understood the assignment an… [+17196 chars]',
+      "For some people the weekend represents an opportunity to get out into the world, spread their wings and explore the splendor that this enigmatic Earth has to offer us. However, for the rest of us, th… [+744 chars]",
   },
   {
     source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      id: null,
+      name: "Habr.com",
+    },
+    author: "PatientZero",
+    title: "[Перевод] Насколько быстры B-деревья по сравнению с хэш-таблицами?",
+    description:
+      "Во многих «скриптовых» языках для стандартных ассоциативных структур данных используется хэш-таблица (hashmap) (объекты Javascript, словари Python и так далее). Хэш-таблицы обладают множеством раздражающих свойств:\n\n<ul>\n<li>Уязвимость к hash flooding. </li>\n…",
+    url: "https://habr.com/ru/articles/849654/#post-content-body",
+    urlToImage:
+      "https://habr.com/share/publication/849654/ac7cea3ec951a66f5aa4219db8cf19db/",
+    publishedAt: "2024-10-22T07:17:20Z",
+    content:
+      "«» - (hashmap) ( Javascript, Python ). - :<ul><li>hash flooding. </li><li> hash flooding seed , , .</li><li> , - .</li><li> wasm, , unmapping.</li><li> wasm , AES . - .</li></ul>B- . -, , . :\r\nintege… [+5994 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Habr.com",
+    },
+    author: "AiratGl",
+    title: "Разыменовываем NULL на RISC-V ядре scr1",
+    description:
+      "Во время работы в ASIC дизайн центре я потратил немало времени на отладку ошибок и падений ядра, просматривая временные диаграммы на шинах AXI от процессора к памяти. Иногда оказывалось, что адрес чтения из памяти оказывался 0x00000000 - классический случай р…",
+    url: "https://habr.com/ru/articles/851188/#post-content-body",
+    urlToImage:
+      "https://habrastorage.org/getpro/habr/upload_files/3e8/2d5/0c3/3e82d50c30e6a01f0ff8e5b8830c8d60.png",
+    publishedAt: "2024-10-16T16:28:50Z",
+    content:
+      "ASIC , AXI . , 0x00000000 - C. C segfault-. bare metal NULL . , NULL, open source RISC-V scr1 open source RTL Verilator.\r\nUbuntu 22.04. :\r\nVerilator - . HDL C++ . : https://verilator.org/guide/latest… [+6276 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Quartz India",
+    },
+    author: "William Gavin",
+    title: "No, Elon Musk's Tesla didn't buy Ford",
+    description:
+      "Despite what content farms on YouTube and other platforms want you to believe, Elon Musk’s Tesla (TSLA) is not buying Ford Motor Co. (F) Read more...",
+    url: "https://qz.com/elon-musk-tesla-ford-ai-jeep-stellantis-fact-check-1851694625",
+    urlToImage:
+      "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9d046a6631a38a0581548673fa34e6d7.jpg",
+    publishedAt: "2024-11-11T13:19:00Z",
+    content:
+      "In This Story\r\nDespite what content farms on YouTube and other platforms want you to believe, Elon Musks Tesla (TSLA+8.11%\r\n) is not buying Ford Motor Co. (F-0.05%\r\n)\r\nAlthough it should really go wi… [+1764 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "HYPEBEAST",
+    },
+    author: "info@hypebeast.com (Hypebeast)",
+    title:
+      "Olafur Eliasson's 'Lifeworld' Brings Blurred Perspectives to Major Cities",
+    description:
+      "Olafur Eliasson’s latest project, Lifeworld, transforms major city screens into abstract visual landscapes, marking a significant partnership between CIRCA and WeTransfer. Launched on October 1, the digital art installation is appearing nightly at 20:24 on sc…",
+    url: "https://hypebeast.com/2024/11/olafur-eliasson-lifeworld-installation-wetransfer-circa",
+    urlToImage:
+      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F11%2F05%2Folafur-eliasson-lifeworld-installation-wetransfer-circa-tw.jpg?w=1080&cbr=1&q=90&fit=max",
+    publishedAt: "2024-11-05T18:21:18Z",
+    content:
+      "Olafur Eliassons latest project, Lifeworld, transforms major city screens into abstract visual landscapes, marking a significant partnership between CIRCA and WeTransfer. Launched on October 1, the d… [+3838 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Livedoor.biz",
+    },
+    author: "news4vip2",
+    title: "【画像】最もカッコいい魚、決まるｗｗｗｗｗ",
+    description:
+      "1: 以下、ニュー速クオリティでお送りします  2022/08/28(日) 13:21:36.90 ID:UC39x2Dt0  ぎょぎょ！？  やっぱりカッコいい魚No1はこいつ      引用元: ・undefined",
+    url: "https://news4vip.livedoor.biz/archives/52540841.html",
+    urlToImage: "https://livedoor.blogimg.jp/news4vip2/imgs/1/0/10eb2198.png",
+    publishedAt: "2024-11-08T22:30:04Z",
+    content: "1: 2022/08/28() 13:21:36.90 ID:UC39x2Dt0",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cedardb.com",
     },
     author: null,
-    title:
-      "Jennie Gow: BBC Sport presenter says 'supportive' F1 paddock will help her return at Dutch Grand Prix",
+    title: "How to Correctly Sum Up Numbers",
     description:
-      'BBC Sport presenter Jennie Gow says the "supportive" atmosphere of Formula 1 will help her as she returns to the paddock at the Dutch Grand Prix.',
-    url: 'https://www.bbc.co.uk/sport/formula1/66607913',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/B5C1/production/_130892564_jennie.jpg',
-    publishedAt: '2023-08-24T17:57:51Z',
+      "When you learn programming, one of the first things every book and course teaches is how to add two numbers. So, developers working with large data probably don't have to think too much about adding numbers, right? Turns out it's not quite so simple!",
+    url: "https://cedardb.com/blog/overflow_handling/",
+    urlToImage: "https://cedardb.com/blog/overflow_handling/overflow.jpg",
+    publishedAt: "2024-10-31T09:07:17Z",
     content:
-      'Jennie Gow (interviewing Mercedes boss Toto Wolff in 2016) has worked in Formula 1 for many years and is a well-known presenter in the paddock\r\nBBC Sport presenter Jennie Gow says the "supportive" Fo… [+2187 chars]',
+      "One of the first examples for loops in probably every programming language course is taking a list of numbers and calculating the sum of them.\r\nAnd in every programming language, it’s trivial to writ… [+11547 chars]",
   },
   {
     source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      id: null,
+      name: "Github.io",
     },
     author: null,
-    title: 'Singapore Grand Prix: Lewis Hamilton says F1 needs to do more to fight discrimination',
-    description:
-      'Lewis Hamilton says Formula 1 needs to do more to fight discrimination in the wake of offensive comments by Red Bull boss Helmut Marko.',
-    url: 'https://www.bbc.co.uk/sport/formula1/66813114',
-    urlToImage:
-      'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/184BF/production/_131091599_ham2.jpg',
-    publishedAt: '2023-09-14T15:44:20Z',
+    title: 'Perhaps Rust Needs "Defer"',
+    description: "Comments",
+    url: "https://gaultier.github.io/blog/perhaps_rust_needs_defer.html",
+    urlToImage: null,
+    publishedAt: "2024-11-06T08:30:26Z",
     content:
-      'Red Bull motorsport adviser Helmut Marko (left) apologised for his remarks about Sergio Perez (right) last week\r\nLewis Hamilton says Formula 1 needs to do more to fight discrimination in the wake of … [+4841 chars]',
+      "Back to all articles\r\nPublished on 2024-11-06\r\nTable of contentsOr, how FFI in Rust is a pain in the neck.\r\nDiscussions: /r/rust, /r/programming\r\nIn a previous article I mentioned that we use the def… [+17094 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Yanko Design',
+      name: "Impress.co.jp",
     },
-    author: 'Gaurav Sood',
+    author: "村上タクタ",
     title:
-      'Bugatti Bolide minus its exoskeleton is still desirable and the safest hypercar on the planet',
+      "UGREENの厳選アイテムが最大35％OFF、さらに読者限定クーポンコードも!! Amazonプライム感謝祭先行セール[Sponsored]",
     description:
-      'Bugatti Bolide minus its exoskeleton is still desirable and the safest hypercar on the planetWhat’s the fastest car on the planet right now? Well, Chiron Super Sport most definitely. That’s about to change with the new Bugatti Bolide track...',
-    url: 'https://www.yankodesign.com/2023/09/14/bugatti-bolide-minus-its-exoskeleton-is-still-desirable-and-safest-hypercar-on-the-planet/',
+      "Amazon.co.jpでは、10月19日から実施されるプライム会員限定のビッグセール「プライム感謝祭」に先駆けた先行セールを実施中だ。その一環として、UGREENストアページでは同社のモバイルバッテリーなどがセール価格で販売されている。なお、プライム感謝祭でも先行セールと同価格にて販売されるとのこと。",
+    url: "https://internet.watch.impress.co.jp/docs/topic/special/1629729.html",
     urlToImage:
-      'https://www.yankodesign.com/images/design_news/2023/09/bugatti-boldie-minus-the-exoskeleton-is-still-desirable-and-the-fastest-hypercar-on-the-planet/Bugatti-Bolide-Hypercar-8.jpg',
-    publishedAt: '2023-09-14T20:45:46Z',
+      "https://internet.watch.impress.co.jp/img/iw/list/1629/729/000.png",
+    publishedAt: "2024-10-16T21:00:00Z",
     content:
-      'Whats the fastest car on the planet right now? Well, Chiron Super Sport most definitely. Thats about to change with the new Bugatti Bolide track hypercar clocking over 310 mph. Just reading that make… [+1634 chars]',
+      "Amazon.co.jp1019UGREEN\r\n 5OFFUGPRIME035 \r\n145W25000mAh\r\n PD3.1 145W 25000mAh25000mAh145WUSB PDUSB Type-C×2USB Type-A×1140WMacBook AirM21390iPhone 155.29985 \r\nGaNInfinity65WPD\r\n NexodeX 65W USB Type-C… [+569 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Digital Trends',
+      name: "Javacodegeeks.com",
     },
-    author: 'Andy Boxall',
-    title: 'The Apple Watch Ultra 2 is (almost) exactly what I wanted',
+    author: "Eleftheria Drosopoulou",
+    title: "JavaScript Hoisting Pitfalls: Common Scoping Issues",
     description:
-      "The Apple Watch Ultra 2 doesn't seem like a big update, does it? You're right, it's not. But it's what I expected — and that's a good thing.",
-    url: 'https://www.digitaltrends.com/mobile/apple-watch-ultra-2-is-almost-exactly-what-i-wanted/',
+      "Hoisting in JavaScript is a unique mechanism that moves declarations to the top of the current scope (either function or global scope) during the compilation phase. This can lead to unexpected behaviors, especially if you’re not fully familiar with how hoisti…",
+    url: "https://www.javacodegeeks.com/2024/10/javascript-hoisting-pitfalls-common-scoping-issues.html",
     urlToImage:
-      'https://www.digitaltrends.com/wp-content/uploads/2023/09/apple-watch-ultra-2-face.jpg?resize=1200%2C630&p=1',
-    publishedAt: '2023-09-14T12:00:10Z',
+      "https://www.javacodegeeks.com/wp-content/uploads/2014/01/javascript-logo.jpg",
+    publishedAt: "2024-10-28T06:47:00Z",
     content:
-      'Apple\r\nThe Apple Watch Ultra 2 announcement from Apple’s iPhone 15 event needs some thinking about before it makes sense. Why? At first, it looked like a product barely deserving of the name due to a… [+5335 chars]',
+      "Hoisting in JavaScript is a unique mechanism that moves declarations to the top of the current scope (either function or global scope) during the compilation phase. This can lead to unexpected behavi… [+3919 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Autoblog',
-    },
-    author: 'Jonathon Ramsey',
-    title: 'Ferrari 250 GTO engine blows its V12 in Goodwood race, small fireball ensues',
-    description:
-      'Filed under:\n Video,Motorsports,Ferrari,Coupe,Racing Vehicles,Special and Limited Editions,Performance,Classics\n Continue reading Ferrari 250 GTO engine blows its V12 in Goodwood race, small fireball ensues\nFerrari 250 GTO engine blows its V12 in Goodwood rac…',
-    url: 'https://www.autoblog.com/2023/09/11/ferrari-250-gto-engine-blows-its-v12-in-goodwood-race-small-fireball-ensues/',
-    urlToImage:
-      'https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2023/09/10163331/ferrari_250_gto_chandhok_goodwood.png',
-    publishedAt: '2023-09-11T12:18:00Z',
-    content:
-      'If an engine works, it can blow. Right now, there are various owners and mechanics in various parts of the world sorting and identifying the mangled shards of what was recently a model of of internal… [+1899 chars]',
-  },
-  {
-    source: {
-      id: 'polygon',
-      name: 'Polygon',
-    },
-    author: 'Ian Walker',
-    title: 'Immortals of Aveum fades into the AAA scenery',
-    description:
-      'AAA gaming’s MCU era gets its own Eternals as Ascendant Studios’ debut game doesn’t make its “Call of Duty with magic” concept sing.',
-    url: 'https://www.polygon.com/reviews/23840401/immortals-of-aveum-review-call-of-duty-magic',
-    urlToImage:
-      'https://cdn.vox-cdn.com/thumbor/rDy1nSQq_aFNlwHp08QDqBFYwsc=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24864345/IOA_USP1_Battlemage.jpg',
-    publishedAt: '2023-08-22T04:00:00Z',
-    content:
-      'When Immortals of Aveum was revealed last year, director Bret Robbins described Ascendant Studios first project as a fantasy version of Call of Duty, swapping helicopters for dragons and rocket-prope… [+5275 chars]',
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'Brendan Griffiths',
-    title: 'How to watch US Open final for free from anywhere: Djokovic vs. Medvedev live stream',
-    description:
-      "There's a way you can watch a free US Open final live stream from anywhere in the world. Let us show you how for Djokovic vs. Medvedev tonight.",
-    url: 'https://www.businessinsider.com/guides/streaming/how-to-watch-us-open-final-free-djokovic-vs-medvedev-live-stream-2023',
-    urlToImage: 'https://i.insider.com/64fdca25a39a1b00190cb657?width=1200&format=jpeg',
-    publishedAt: '2023-09-10T17:00:01Z',
-    content:
-      'When you buy through our links, Insider may earn an affiliate commission. Learn more\r\nWant to know how to watch the US Open final today? Want to watch it for free? We can help you on both counts and … [+6333 chars]',
-  },
-  {
-    source: {
-      id: 'la-repubblica',
-      name: 'La Repubblica',
-    },
-    author: 'repubblicawww@repubblica.it (Redazione Repubblica.it)',
-    title:
-      'F1, Gp d’Olanda: Verstappen a caccia del record di Vettel nel circuito di casa. “Mi rilassa vincere comodamente”',
-    description:
-      'Dopo 36 anni la Formula 1 torna a Zandvoort, fortino del campione del mondo che insegue la nona vittoria di fila. Impresa riuscita solo al tedesco, nel 2013, sempre al volante della Red Bull',
-    url: 'https://www.repubblica.it/sport/formulauno/2023/08/25/news/f1_gp_olanda_circuito_verstappen-412211164/',
-    urlToImage:
-      'https://www.repstatic.it/content/nazionale/img/2023/08/25/091950997-1f42c01e-d033-40ec-b8f9-82b863907cf5.jpg',
-    publishedAt: '2023-08-25T08:59:36Z',
-    content:
-      'ZANDVOORT (OLANDA)  Dive into the Sea of Orange (Tuffatevi in un mare darancio) è lo slogan scritto sui cartelloni attorno al circuito di Zandvoort. Ed è un tuffo nellarancione, letteralmente: cè una… [+3624 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Corriere.it',
-    },
-    author: 'Redazione Cook',
-    title:
-      'Gp di Monza, quanto devono pesare i piloti di Formula 1? La speciale dieta dei sei pasti',
-    description:
-      'Sottoposti a limiti di peso e grandi sollecitazioni in gara, i piloti di Formula 1 seguono una dieta rigida e particolare. Ne abbiamo parlato con Iader Fabbri, biologo, nutrizionista e divulgatore scientifico',
-    url: 'https://www.corriere.it/cook/news/23_settembre_02/gp-monza-quanto-devono-pesare-piloti-formula-1-speciale-dieta-sei-pasti-4ebae0f8-4911-11ee-859b-50c2b0b05e77.shtml',
-    urlToImage:
-      'https://images2.corriereobjects.it/methode_image/2023/09/01/Cucina/Foto-Cucina-Trattate/1653007641[1]-kBHE-U34301941852162DIG-526x284@Corriere-Web-Sezioni.jpg',
-    publishedAt: '2023-09-02T14:54:51Z',
-    content:
-      'Per gli appassionati italiani di alta velocità questo è il weekend dell’anno: c’è il Gran Premio di Monza. Per i piloti, invece, ogni gara è il punto d’arrivo di un’intensa preparazione atletica, che… [+4563 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'F1news.ru',
-    },
-    author: 'Андрей Лось',
-    title: 'Лиам Лоусон: Моя цель – Формула 1',
-    description:
-      'Лиам Лоусон уверяет, что его целью по-прежнему остаётся Формула 1, хотя понимает, что развитие карьеры во многом зависит от результатов, которые он добьётся в японской серии Super Formula...',
-    url: 'https://www.f1news.ru/news/autosport-169504.html',
-    urlToImage: 'https://cdn.f1ne.ws/userfiles/lawson/169504.jpg',
-    publishedAt: '2023-08-21T12:06:00Z',
-    content:
-      ', - 1, , , Super Formula.\r\n« , , – Speedcafe . – , , , . – 1.\r\n Super Formula , , , .\r\n, 2 3 , 1 , , . , , Super Formula .\r\n , Super GT, . Super Formula – , , ».\r\n , , , .\r\n : « ( ) . , , , , ».\r\n , … [+60 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'NPR',
-    },
-    author: 'Jackie Fortiér',
-    title: "Hollywood union health insurance is particularly good. And it's jeopardized by strike",
-    description:
-      'Hollywood actors and writers who qualify for their union health plans get a very good deal compared to other Americans. But not working during the strike threatens their eligibility in the system.',
-    url: 'https://www.npr.org/sections/health-shots/2023/08/30/1196652142/hollywood-union-health-insurance-sag-aftra-wga',
-    urlToImage:
-      'https://media.npr.org/assets/img/2023/08/29/gettyimages-1532787027_wide-df452b600aaa6595bdae4c41e33c9e9a71fabf94-s1400-c100.jpg',
-    publishedAt: '2023-08-30T13:00:18Z',
-    content:
-      'America Ferrera joins the SAG-AFTRA picket line in front of Netflix in New York City. Actors who qualify get a very good deal on health insurance from their union.\r\nRob Kim/Getty Images\r\nThe issues d… [+9795 chars]',
-  },
-  {
-    source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      name: "Xxiivv.com",
     },
     author: null,
-    title: 'Dutch Grand Prix first practice: F1 season returns after summer break',
-    description:
-      'Follow live text and BBC Radio 5 Sports Extra commentary from first and second practice at the Dutch Grand Prix.',
-    url: 'https://www.bbc.co.uk/sport/live/formula1/63208370',
-    urlToImage:
-      'https:////m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.23.3/images/bbc-sport-logo.png',
-    publishedAt: '2023-08-23T13:15:56Z',
+    title: "Now lie in it: an uxntal retrospective",
+    description: "Comments",
+    url: "https://wiki.xxiivv.com/site/now_lie_in_it.html",
+    urlToImage: null,
+    publishedAt: "2024-11-01T17:28:03Z",
     content:
-      "The summer holidays are over!\r\nWell, they are if you are working in Formula 1, and the season resumes right on the championship leader's home patch.\r\nMax Verstappen begins the second part of the seas… [+211 chars]",
+      "Autumn is just around the corner, and when the leaves begin to fall, it will\r\nhave been four years since the early sketches of a\r\npersonal computing system which became Uxn. I thought it\r\nwould be in… [+6856 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Deadline',
+      name: "Kk.org",
     },
-    author: 'Jesse Whittock',
+    author: "claudia",
+    title: "What is something you have that you wished everyone had?",
+    description: "Just One Question #6",
+    url: "https://kk.org/cooltools/what-is-something-you-have-that-you-wished-everyone-had/",
+    urlToImage: null,
+    publishedAt: "2024-10-19T16:00:00Z",
+    content:
+      "To participate in Just 1 Question, and receive the issues one week early, sign up here.\r\nWhen you leave the house, take a sketchbook\r\nI wish everyone had a small sketchbook to carry around. Even the … [+3754 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PC-WELT",
+    },
+    author: "Author: Laura Pippig",
     title:
-      'Disney+ Sets Cast For UK Thriller ‘Playdate’ & Unveils First Look At Keanu Reeves In Formula 1 Series ‘Brawn’ — Edinburgh TV Festival',
+      "Logitech POP Icon Combo review: Colorful keyboard & mouse with really smart functions",
     description:
-      'Disney+ has set cast for UK psychological drama  Playdate, adapted from Alex Dahl’s best-selling novel of the same name. The series, directed by Eva Husson (Mothering Sunday), will star Denise Gough (Andor),  Holliday Grainger  (Strike),  Ambika Mod (I Hate S…',
-    url: 'https://deadline.com/2023/08/disney-plus-keanu-reeves-uk-originals-edinburgh-tv-festival-1235524767/',
-    urlToImage: 'https://deadline.com/wp-content/uploads/2023/08/Keanu_Jensen_00982.jpg?w=1024',
-    publishedAt: '2023-08-23T13:27:00Z',
-    content:
-      'Disney+ has set cast for UK psychological drama  Playdate, adapted from Alex Dahl’s best-selling novel of the same name.\r\nThe series, directed by Eva Husson (Mothering Sunday), will star Denise Gough… [+3428 chars]',
-  },
-  {
-    source: {
-      id: 'polygon',
-      name: 'Polygon',
-    },
-    author: 'Joshua Rivera',
-    title: 'The big games, announcements, and trailers from Gamescom Opening Night Live 2023',
-    description:
-      'Diablo 4’s new season, Alan Wake 2, the Cyberpunk 2077 DLC, and Little Nightmares 3 are the highlights of this year’s showcase',
-    url: 'https://www.polygon.com/2023/8/22/23841795/gamescom-announcements-trailers-onl-2023',
+      "Macworld\n\n\n\r\n\n\n\nAt a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Great looks</li>\n\n\n\n<li>Nice key feel and quiet keystroke</li>\n\n\n\n<li>Smart functions for AI and multitasking</li>\n\n\n\n<li>Long battery life</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Slightly cramped layout<…",
+    url: "https://www.pcwelt.de/article/2491600/logitech-pop-icon-combo-test.html",
     urlToImage:
-      'https://cdn.vox-cdn.com/thumbor/UYYkAJpuwCx_hwPUfIan8K7MrHc=/0x0:3274x1714/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24866887/cyberpunk_cybernetics.jpg',
-    publishedAt: '2023-08-22T20:58:10Z',
+      "https://www.macworld.com/wp-content/uploads/2024/11/Logitech-Pop-Icon-Combo.png?w=1024",
+    publishedAt: "2024-11-06T12:09:21Z",
     content:
-      'In whats become an end-of-summer bookend on the game release calendar, Gamescoms Opening Night Live showcase is once again here to highlight games coming your way in the near future. Hosted by Geoff … [+7185 chars]',
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>G… [+6005 chars]",
   },
   {
     source: {
-      id: null,
-      name: 'Biztoc.com',
+      id: "time",
+      name: "Time",
     },
-    author: 'reuters.com',
-    title: 'Vettel texted Verstappen his support in record bid',
+    author: "Victoria Malloy and Video by Andrew D. Johnson",
+    title: "Fighting Florida’s Invasive Python Problem One Step at a Time",
     description:
-      "[1/2] Formula One F1 - Abu Dhabi Grand Prix - Yas Marina Circuit, Abu Dhabi, United Arab Emirates - November 20, 2022 Aston Martin's Sebastian Vettel performs a donut in his car after his last Formula One race REUTERS/Leonhard Foeger Acquire Licensing Rights …",
-    url: 'https://biztoc.com/x/276b4d117e804425',
-    urlToImage: 'https://c.biztoc.com/p/276b4d117e804425/s.webp',
-    publishedAt: '2023-08-26T21:04:03Z',
+      "Shoe company P448 has become an unlikely ally in the battle to tackle invasive species by turning snakeskin into shoes.",
+    url: "https://time.com/7086199/florida-invasive-python-problem-p448-shoes/",
+    urlToImage:
+      "https://api.time.com/wp-content/uploads/2024/10/P448-Python-17836-1.1.jpg?quality=85&w=1200&h=628&crop=1",
+    publishedAt: "2024-10-15T14:55:34Z",
     content:
-      "[1/2] Formula One F1 - Abu Dhabi Grand Prix - Yas Marina Circuit, Abu Dhabi, United Arab Emirates - November 20, 2022 Aston Martin's Sebastian Vettel performs a donut in his car after his last Formul… [+319 chars]",
+      "Despite miles of ground covered as we drove through the Everglades under the cover of darkness, it was impossible to ignore the fact that we hadnt spotted a single mammal. The expansive wetlands in S… [+15850 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Forbes',
+      name: "Wanderinghorse.net",
+    },
+    author: null,
+    title: "Cwal: Scripting Engine Without a Language",
+    description: "Comments",
+    url: "https://fossil.wanderinghorse.net/r/cwal/home",
+    urlToImage: null,
+    publishedAt: "2024-10-14T10:28:45Z",
+    content:
+      'cwal (pronounced "sea wall") is a scripting engine/garbage-collection\r\nlibrary implemented in C (which is where the\r\n"c" comes from - its original name was "sewal"). cwal itself does not\r\nprovide a s… [+10393 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Isocpp.org",
+    },
+    author: "Andrey Karpov",
+    title: "C++ programmer's guide to undefined behavior: part 8 of 11",
+    description:
+      "Your attention is invited to the eighth part of an e-book on undefined behavior. This is not a textbook, as it's intended for those who are already familiar with C++ programming. It's a kind of C++ programmer's guide to undefined behavior and to its most secr…",
+    url: "https://isocpp.org//blog/2024/11/cpp-programmers-guide-to-undefined-behavior-part-8-of-11",
+    urlToImage: null,
+    publishedAt: "2024-11-01T12:35:24Z",
+    content:
+      "Meeting C++\r\nNovember 14-16, Berlin, Germany\r\nISO C++ standards meeting\r\nNovember 18-23, Wrocław, Poland\r\ncode::dive\r\nNovember 25, Wrocław, Poland\r\nISO C++ standards meeting\r\nFebruary 10-15, Hagenber… [+144 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "ArchDaily",
+    },
+    author: "韩爽 - HAN Shuang",
+    title: "Sun Tower / OPEN Architecture",
+    description:
+      'Designed by OPEN Architecture, Sun Tower is an oceanfront public cultural facility in Yantai Yeda Development Zone, featuring outdoor theater, digital exhibition spaces, library, café and bar. Atop the summit is a unique semi-outdoor "Phenomena Space". Archeo…',
+    url: "https://www.archdaily.com/1023114/sun-tower-open-architecture",
+    urlToImage:
+      "https://images.adsttc.com/media/images/6728/9306/3dfd/b459/4124/5684/large_jpg/sun-tower-open-architecture_5.jpg?1730712338",
+    publishedAt: "2024-11-05T07:00:00Z",
+    content:
+      "© Iwan Baan\r\n+ 31\r\n<ul><li>Principals In Charge: LI Hu, HUANG Wenjing\r\n</li><li>Project Team: Design Phase: CAO Mengxing, LIU Xiaoyang, Daijiro NAKAYAMA, LU Di, WEN Peng, WEI Zihao, ZHANG Ziyao, LIN … [+5305 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "咖啡机（K.F.J）",
+    title: "带团队后的日常思考（十六） - 咖啡机（K.F.J）",
+    description:
+      "一、日常问题 1）临时小需求 在日常研发过程中，难免会临时加些小需求，例如增加个标识、字体换个颜色、间距增加等。 这类需求虽然不复杂，但是很多时候都会打乱自己的开发节奏。 最近我收到个修改需求，来来回回改了四次。因为只是和我口述了下需求，我按照口述修改。 后面测试就发现了些场景需要过滤，再马上修复。",
+    url: "https://www.cnblogs.com/strick/p/18406625",
+    urlToImage: null,
+    publishedAt: "2024-11-07T02:05:00Z",
+    content:
+      "1\r\n2\r\n Node getaddrinfo ENOTFOUND xxx\r\n Node Pod \r\ntry-catch catch \r\n undefined pod \r\n 23 pod \r\n Pod CPU \r\n3CPU\r\n 10 8 3 CPU 60%\r\n delete 10 CPU \r\nDELETEFROM `web_monitor` WHERE `ctime` &lt;='2024-10… [+157 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Juxtapoz.com",
+    },
+    author: "Editor@juxtapoz.com (Editor -- Evan)",
+    title:
+      "Interview: Angela Burson’s Latest Paintings Encounter the Strange, the Uncanny, the Unknown",
+    description:
+      "What do we take away from an encounter with a stranger? Generally speaking, theWhat do we take away from an encounter with a stranger? Generally speaking, theoddities—the aspects of the encounter that are unsettling, abnormal. In her latest solo exhibition Cl…",
+    url: "https://www.juxtapoz.com/news/magazine/interview-angela-burson-s-latest-paintings-encounter-the-strange-the-uncanny-the-unknown/",
+    urlToImage:
+      "https://www.juxtapoz.com/media/k2/items/cache/65636e3e9a47cb828e17a5e344a8eed3_L.jpg?t=1728918566",
+    publishedAt: "2024-10-15T07:47:04Z",
+    content:
+      "What do we take away from an encounter with a stranger? Generally speaking, theWhat do we take away from an encounter with a stranger? Generally speaking, theoddities—the aspects of the encounter tha… [+8086 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Classmethod.jp",
+    },
+    author: "岩田智哉",
+    title: "Prismaのコネクションプール関連のパラメータについて確認してみた",
+    description:
+      "Prismaのコネクションプール関連のパラメータについて確認してみた",
+    url: "https://dev.classmethod.jp/articles/prisma-engines-connection-pooling-parameters/",
+    urlToImage:
+      "https://images.ctfassets.net/ct0aopd36mqt/wp-thumbnail-9447034b816ea26dda021481e3370c97/852593bd37bd413ffd07622643655a06/prisma-logo.png",
+    publishedAt: "2024-11-13T08:15:43Z",
+    content:
+      "@\r\nPrismaMySQL\r\nPrisma\r\n<ul><li>clientVersion: 5.15.0</li><li>engineVersion: 12e25d8d06f6ea5a0252864dd9a03b1bb51f3022</li></ul> Prisma\r\nPrisma\r\n'mysql://prisma:prisma@127.0.0.1:3306/mysql?&lt;1&gt;=&… [+8079 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Zuplo.com",
+    },
+    author: "Adrian Machado",
+    title: "JSON Patch",
+    description:
+      "JSON Patch is a simple, efficient, and standardized way to apply partial updates to JSON documents, especially over HTTP",
+    url: "https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch",
+    urlToImage:
+      "https://zuplo.com/og?text=Unlocking%20the%20Power%20of%20JSON%20Patch",
+    publishedAt: "2024-10-17T17:46:17Z",
+    content:
+      "October 10, 2024JSON Patch is a standardized format defined in\r\nRFC 6902 for describing how to\r\nmodify a JSON document. It was created to address the need for a simple,\r\nefficient, and standardized w… [+12954 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Mediaite",
+    },
+    author: "Ahmad Austin Jr.",
+    title:
+      "University of Florida Basketball Coach Accused of Stalking and Harassing ‘Undefined’ Number of Women",
+    description:
+      'University of Florida men\'s basketball head coach Todd Golden has been accused of sexual harassment and stalking by an "undefined" number of women.\nThe post University of Florida Basketball Coach Accused of Stalking and Harassing ‘Undefined’ Number of Women f…',
+    url: "https://www.mediaite.com/sports/university-of-florida-basketball-coach-accused-of-stalking-and-harassing-undefined-number-of-women/",
+    urlToImage:
+      "https://www.mediaite.com/wp-content/uploads/2024/11/AP24310682304267-scaled.jpg",
+    publishedAt: "2024-11-08T21:30:02Z",
+    content:
+      "Gary McCullough/AP\r\nUniversity of Florida men’s basketball head coach Todd Golden has been accused of sexual harassment and stalking by an “undefined” number of women.\r\nAccording to Title IX document… [+1821 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Jon L. Jacobi",
+    title: "Samsung 990 EVO Plus SSD review: Hybrid PCIe 4/5 HMB evolves",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Very good everyday performance</li>\n\n\n\n<li>Affordable for Samsung</li>\n\n\n\n<li>Five-year warranty and good TBW rating</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Slows on the 450GB write to 1.2GBps</li>\n\n\n\n<li>Pricier than so…",
+    url: "https://www.pcworld.com/article/2490751/samsung-990-evo-plus-ssd-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/Samsung-990-Evo-Plus-1.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-23T10:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>V… [+4533 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Forbes",
     },
     author:
-      'Michael Goldstein, Contributor, \n Michael Goldstein, Contributor\n https://www.forbes.com/sites/michaelgoldstein/',
-    title: 'Vroom Vroom In Vegas As Formula One Brings Out The Big Spenders',
+      "Henry Flynn, Contributor, \n Henry Flynn, Contributor\n https://www.forbes.com/sites/henryflynn/",
+    title: "Sevilla Seeks Identity; Belgium Forward Dodi Lukebakio Can Help",
     description:
-      'Las Vegas hotels like Resorts World, Bellagio, Palms, and Wynn are offering the utmost in luxury for the upcoming Las Vegas Formula One Grand Prix.',
-    url: 'https://www.forbes.com/sites/michaelgoldstein/2023/08/25/vroom-vroom-in-vegas-as--formula-one-brings-out-the-big-spenders/',
+      "Belgium winger Dodi Lukebakio is the player to lead Sevilla forward amid a difficult time for the La Liga club on and off the field.",
+    url: "https://www.forbes.com/sites/henryflynn/2024/10/26/sevilla-seeks-identity-belgium-forward-dodi-lukebakio-can-help/",
     urlToImage:
-      'https://imageio.forbes.com/specials-images/imageserve/64e9653b432f9646b74af6bf/0x0.jpg?format=jpg&width=1200',
-    publishedAt: '2023-08-26T03:01:09Z',
+      "https://imageio.forbes.com/specials-images/imageserve/671cbf263352580c7f1b7d35/0x0.jpg?format=jpg&crop=4118,2315,x0,y430,safe&height=900&width=1600&fit=bounds",
+    publishedAt: "2024-10-26T17:26:21Z",
     content:
-      'LAS VEGAS, NEVADA - NOVEMBER 05: Sergio Perez of Mexico and Red Bull looks on during the Formula 1 ... [+] Las Vegas Grand Prix 2023 launch party on November 05, 2022 in Las Vegas, Nevada. (Photo by … [+10028 chars]',
+      "Lukebakio brings a certain directness to Sevilla's play.\r\nGetty Images\r\nSevilla is a shadow of the soccer club it once was.\r\nAnd that was not long ago. In 2023, the Nervión team won a record-extendin… [+2964 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Psychology Today',
+      name: "Alicekeeler.com",
     },
-    author: 'Thomas Rutledge Ph.D.',
-    title: 'Why Training, Not Therapy, May Be a Ticket to Your Best Life',
+    author: "Alice Keeler",
+    title: "Time to Ditch the Social Media Algorithm",
     description:
-      'If your goal is to enjoy the best life possible, there is a simple and scientifically proven formula: get fit, get strong, and get started.',
-    url: 'https://www.psychologytoday.com/intl/blog/the-healthy-journey/202309/why-training-not-therapy-may-be-a-ticket-to-your-best-life',
+      "Remember the good old days of Twitter when you could jump on really quick and get some positive encouragement or teaching ideas? Things seem to have gone downhill a bit on the site formerly known as Twitter (I will never call it X). It’s time to ditch the soc…",
+    url: "https://alicekeeler.com/2024/11/13/time-to-ditch-the-social-media-algorithm/",
     urlToImage:
-      'https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2023-09/dumbbells-2465478_1920.jpg?itok=-uOkk258',
-    publishedAt: '2023-09-08T19:04:42Z',
+      "https://alicekeeler.com/wp-content/uploads/2024/11/deck-dot-blue-1024x576.png",
+    publishedAt: "2024-11-13T15:51:09Z",
     content:
-      'If your goal is to enjoy the highest quality of life possiblethe ability to consistently feel, look, and function at an amazing levelthen I have a suggestion that may sound unconventional coming from… [+5995 chars]',
+      'Warning: Undefined array key "background_image" in /www/teachertech_682/public/wp-content/plugins/elementor/includes/conditions.php on line 87Warning: Trying to access array offset on value of type n… [+1000 chars]',
   },
   {
     source: {
-      id: 'bbc-news',
-      name: 'BBC News',
+      id: null,
+      name: "Hatenablog.com",
     },
     author: null,
-    title: 'Italian Grand Prix third practice - radio and text',
-    description:
-      'Follow live text and BBC Radio 5 Sports Extra commentary from third practice before qualifying at the Italian Grand Prix.',
-    url: 'https://www.bbc.co.uk/sport/live/formula1/63208378',
-    urlToImage:
-      'https:////m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.23.3/images/bbc-sport-logo.png',
-    publishedAt: '2023-09-01T14:07:31Z',
-    content:
-      'Hello, folks. The Italian fans are settling in the grandstands for a day of high-class Formula 1 action, so get yourselves comfortable with a tea/coffee, some breakfast. \r\nThird practice goes green a… [+263 chars]',
-  },
-  {
-    source: {
-      id: 'bleacher-report',
-      name: 'Bleacher Report',
-    },
-    author: 'Chris Roling',
-    title: 'Mortal Kombat 1: Gameplay Review, Story Mode Impressions and Esports Impact',
-    description:
-      'Mortal Kombat 1 from developer NetherRealm Studios faces what feels like an insurmountable task—delivering on high expectations to the point of becoming the…',
-    url: 'https://bleacherreport.com/articles/10089322-mortal-kombat-1-gameplay-review-story-mode-impressions-and-esports-impact',
-    urlToImage:
-      'https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1694831230/wn51euijwd8gwbi2fwoz.jpg',
-    publishedAt: '2023-09-16T03:01:43Z',
-    content:
-      'INA FASSBENDER/AFP via Getty Images\r\nMortal Kombat 1 from developer NetherRealm Studios faces what feels like an insurmountable taskdelivering on high expectations to the point of becoming the best g… [+10124 chars]',
-  },
-  {
-    source: {
-      id: 'espn',
-      name: 'ESPN',
-    },
-    author: 'Turron Davenport',
-    title: "Vrabel: Henry still 'huge part' despite lighter load",
-    description:
-      "The Titans have traditionally used running back Derrick Henry as a hammer to wear down defenses and go for the knockout blow in the fourth quarter, but deviated from that formula in Sunday's loss to the Saints.",
-    url: 'https://www.espn.com/nfl/story/_/id/38380617/mike-vrabel-says-rb-derrick-henry-huge-part-offense',
-    urlToImage:
-      'https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0911%2Fr1223188_1296x729_16%2D9.jpg',
-    publishedAt: '2023-09-11T21:05:50Z',
-    content:
-      'NASHVILLE, Tenn. -- The Tennessee Titans broke away from what has been their winning formula in their 16-15 loss to the New Orleans Saints last Sunday.\r\nThe Titans had traditionally used running back… [+2484 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Ryan Erik King',
-    title: "What's Your Most Out-Of-Depth Driving Experience?",
-    description:
-      'Have you ever overestimated the winter capabilities of your car after a huge snowstorm? Did you take your typical grocery-getter to get battered on a forest trail? Did you take your brand new Ford Mustang to a Cars and Coffee? We’ve all been there. We’ve gott…',
-    url: 'https://jalopnik.com/whats-your-most-out-of-depth-driving-experience-1850816980',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/ab369d8757757e2e0014f190ae83dd51.jpg',
-    publishedAt: '2023-09-11T12:37:00Z',
-    content:
-      'Have you ever overestimated the winter capabilities of your car after a huge snowstorm? Did you take your typical grocery-getter to get battered on a forest trail? Did you take your brand new Ford Mu… [+1203 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Gazzetta.it',
-    },
-    author: 'Alberto Dalla Palma',
-    title: "Formula 1, si riparte: Verstappen favorito nel Gp d'Olanda, quote e pronostici",
-    description:
-      "Formula 1, riparte il Mondiale e Verstappen è il grande favorito per la vittoria nel Gp d'Olanda che si correrà domenica 27 agosto alle ore 16",
-    url: 'https://www.gazzetta.it/scommesse/pronostici/24-08-2023/formula-1-verstappen-gp-olanda-quote-pronostico-17163.shtml',
-    urlToImage:
-      'https://static-scommesse.gazzettaobjects.it/wp-content/uploads/2023/03/09/52/GettyImages-1431884559.jpg',
-    publishedAt: '2023-08-24T15:06:24Z',
-    content:
-      "Alberto Dalla Palma\r\n24 agosto\r\nMax Verstappen è il grande favorito del Gran Premio d'Olanda con cui ripartirà il mondiale di Formula 1 domenica 27 agosto alle ore 15. Dopo un mese di sosta, cioè dop… [+1744 chars]",
-  },
-  {
-    source: {
-      id: 'business-insider',
-      name: 'Business Insider',
-    },
-    author: 'tparadis@insider.com (Tim Paradis)',
     title:
-      "If a single farm produced all the food wasted in the US, it would be the size of California and New York combined. We're the culprits.",
+      "TypeScript 5.8で条件付き戻り値型に対するナローイングができるようになりそう（特定の制約を満たす場合） - Mitsuyuki.Shiiba",
     description:
-      'The average US family wastes up to $1,500 a year on uneaten food. The land used to produce it is the size of California and New York combined.',
-    url: 'https://www.businessinsider.com/average-american-wastes-thousands-uneaten-food-yearly-2023-9',
-    urlToImage: 'https://i.insider.com/64f242c37819260019103804?width=1200&format=jpeg',
-    publishedAt: '2023-09-10T11:15:01Z',
-    content:
-      'Danielle Melgar is working with the caterer for her wedding to make sure that between the "I do\'s" and the last dance, food won\'t be going to waste.\r\nThe October ceremony, at a botanical garden in Mi… [+8487 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Android Authority',
-    },
-    author: 'Robert Triggs',
-    title: 'Sony Xperia 1 VI: Release date, specs, rumors, price, and feature wishlist',
-    description:
-      "The Sony Xperia 1 VI isn't due until 2024, but we're already eagerly anticipating Sony's next flagship smartphone. Here's what to expect.",
-    url: 'https://www.androidauthority.com/sony-xperia-1-vi-3361570/',
+      "数日前にTypeScript 5.7 RCがアナウンスされてリリースが楽しみだなー！ってところなんだけど、そのさらに数日前に、ウォッチしていたこのPR↓がマージされてTypeScript 5.8.0のマイルストーンに入った。わー！ これが今日のお話。TypeScript 5.8.0でConditional return type narrowingが入りそう。楽しみ！ Conditional return type narrowing? 直訳すると「条件付き戻り値型の絞り込み」かな。引数の型によって戻り値の型が変…",
+    url: "https://bufferings.hatenablog.com/entry/2024/11/11/232139",
     urlToImage:
-      'https://www.androidauthority.com/wp-content/uploads/2023/05/Sony-Xperia-1-V-front-with-props-black-magenta-background-scaled.jpg',
-    publishedAt: '2023-09-07T16:57:35Z',
+      "https://ogimage.blog.st-hatena.com/12704346814673909441/6802418398302001046/1731335451",
+    publishedAt: "2024-11-11T22:38:11Z",
     content:
-      'The Sony Xperia 1 V may have only recently landed on store shelves, but were already thinking about Sonys next flagship smartphone, tentatively known as the Xperia 1 VI. Heres what we know about the … [+8927 chars]',
+      "TypeScript 5.7 RCPRTypeScript 5.8.0\r\nTypeScript 5.8.0Conditional return type narrowing\r\nConditional return type narrowing?\r\ndeclareconst record: Record&lt;string, string[]&gt;;\r\ndeclareconst array: s… [+829 chars]",
   },
   {
     source: {
       id: null,
-      name: 'Nerdist',
+      name: "Cnblogs.com",
     },
-    author: 'Tai Gooden',
-    title: 'FERRARI Trailer Features an Unrecognizable Adam Driver as the Racing Legend',
+    author: "龙儿筝",
+    title: "鸿蒙Navigation处理启动页跳转到首页问题 - 龙儿筝",
     description:
-      'Adam Driver is nearly unrecognizable in the first teaser trailer for Ferrari, where he stars as the legend who launched Formula 1 racing.\nThe post FERRARI Trailer Features an Unrecognizable Adam Driver as the Racing Legend appeared first on Nerdist.',
-    url: 'https://nerdist.com/article/ferrari-trailer-stars-adam-driver-as-enzo-ferrari-film-based-on-book-by-brock-yates-michael-mann-as-director/',
-    urlToImage:
-      'https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2023/08/30100830/Adam-Driver-Ferarri-1.jpg',
-    publishedAt: '2023-08-30T17:31:45Z',
+      "在使用Navigation时时，你是否遇到了这样一个问题，Navigation加载启动页为入口，在启动页replace到首页，使首页替换换启动页，结果发现不生效，启动页依然存在。 为什么根页面启动页不能直接替换成首页 我们验证后发现当页面是Navigation的子页面时，是可以使用replace替换",
+    url: "https://www.cnblogs.com/zhaloe/p/18517371",
+    urlToImage: null,
+    publishedAt: "2024-10-31T03:34:00Z",
     content:
-      'You know what I really love? When a teaser trailer is exactly what it says it is. The “go girl, give us nothing” energy of a few clips woven together in 90 seconds or less is great. I want just enoug… [+1576 chars]',
+      "NavigationNavigationreplace\r\nNavigationreplaceNavPathStackNavPathStackreplacepushpop\r\nNavigation\r\nNavigationrouterNavigationrouterrouternavigation\r\nNavigationNavigationV2\r\n@Entry\r\n@ComponentV2\r\nstruc… [+655 chars]",
   },
   {
     source: {
       id: null,
-      name: 'autosport.com',
-    },
-    author: 'Matt Somerfield',
-    title: 'Dutch GP: F1 technical images from the pitlane',
-    description:
-      'Join us as we delve into the Formula 1 technical features on display in the pitlane as teams prepare for the Dutch Grand Prix, courtesy of Giorgio Piola and Sutton Images.',
-    url: 'https://www.autosport.com/f1/news/dutch-gp-f1-technical-images-from-the-pitlane-explained/10511090/',
-    urlToImage:
-      'https://cdn-1.motorsport.com/images/amp/6n98mlmY/s6/alphatauri-at04-nose-and-front.jpg',
-    publishedAt: '2023-08-24T20:24:40Z',
-    content:
-      'Ferrari SF-23 front wing detail\r\nPhoto by: Roberto Chinchero\r\nA couple of front wing and nose assemblies are being worked on outside the Ferrari garage, with the lower one not yet having the vanity p… [+4847 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'autosport.com',
-    },
-    author: 'Matt Somerfield',
-    title: 'Singapore GP: F1 technical images from the pitlane explained',
-    description:
-      'Join us as we delve into the Formula 1 technical features on display in the pitlane as teams prepare for the Singapore Grand Prix, courtesy of Giorgio Piola and Sutton Images',
-    url: 'https://www.autosport.com/f1/news/singapore-gp-f1-technical-images-from-the-pitlane-explained/10520268/',
-    urlToImage:
-      'https://cdn-6.motorsport.com/images/amp/6xEVo810/s6/williams-fw45-technicaldetail-.jpg',
-    publishedAt: '2023-09-14T19:12:26Z',
-    content:
-      'Red Bull Racing RB19 technical detail\r\nPhoto by: Uncredited\r\nRed Bull has a new rear wing design at the Singapore Grand Prix, as the team follows in the footsteps of its rivals. This style of semi-de… [+3971 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Andy Kalmowitz',
-    title: 'Strike Looms For UAW And The Big Three On Contract Deadline Day',
-    description:
-      'Good morning! It’s Thursday, September 14, 2023, and this is The Morning Shift, your daily roundup of the top automotive headlines from around the world, in one place. Here are the important stories you need to know.Read more...',
-    url: 'https://jalopnik.com/strike-looms-for-uaw-and-the-big-three-on-contract-dead-1850837632',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/9c4c505b111cce5e31993009a3d38c5b.png',
-    publishedAt: '2023-09-14T14:25:00Z',
-    content:
-      'Good morning! Its Thursday, September 14, 2023, and this is The Morning Shift, your daily roundup of the top automotive headlines from around the world, in one place. Here are the important stories y… [+9631 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Xatakamovil.com',
-    },
-    author: 'Alejandro Alcolea',
-    title:
-      'Buenas noticias para DAZN: mantiene dos de sus principales canales de deporte hasta 2026',
-    description:
-      'Buenas noticias para los amantes de deporte que, además, estén suscritos a DAZN. Y es que, aparte de los contenidos de Formula 1, MotoGP y, sobre todo, los partidos de LaLiga y la Premier inglesa, si hay un punto fuerte de la plataforma es el multideporte.\n<!…',
-    url: 'https://www.xatakamovil.com/streaming/buenas-noticias-para-dazn-mantiene-dos-sus-principales-canales-deporte-2026',
-    urlToImage: 'https://i.blogs.es/69341f/analisis-galaxy-watch-6-classic-27/840_560.jpeg',
-    publishedAt: '2023-08-24T12:31:31Z',
-    content:
-      'Buenas noticias para los amantes de deporte que, además, estén suscritos a DAZN. Y es que, aparte de los contenidos de Formula 1, MotoGP y, sobre todo, los partidos de LaLiga y la Premier inglesa, si… [+1418 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Ilfattoquotidiano.it',
-    },
-    author: 'Lorenzo Pastuglia',
-    title:
-      'Formula 1, nelle prove libere del gp di Monza la Ferrari torna brillante e si avvicina alla Red Bull',
-    description:
-      'La Red Bull davanti, ma una Ferrari finalmente brillante e competitiva, almeno per il secondo posto. Le libere del venerdì di Monza dicono che la Rossa è molto più vicina ai rivali anglo-austriaci, dopo le tante difficoltà viste negli ultimi gran premi. Un ot…',
-    url: 'https://www.ilfattoquotidiano.it/2023/09/01/formula-1-nelle-prove-libere-del-gp-di-monza-la-ferrari-torna-brillante-e-si-avvicina-alla-red-bull/7278984/',
-    urlToImage: 'https://st.ilfattoquotidiano.it/wp-content/uploads/2023/09/01/ferrari.jpg',
-    publishedAt: '2023-09-01T17:06:56Z',
-    content:
-      'La Red Bull davanti, ma una Ferrari finalmente brillante e competitiva, almeno per il secondo posto. Le libere del venerdì di Monza dicono che la Rossa è molto più vicina ai rivali anglo-austriaci, d… [+3152 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Jalopnik',
-    },
-    author: 'Ryan Erik King',
-    title: 'Lotus Unveils The Type 66, A Never-Raced 1970s Can-Am Prototype',
-    description:
-      'Lotus founder Colin Chapman aspired to compete against the dominant McLaren cars in Can-Am but never progressed further than the design stage. However, the Lotus Type 66 will finally see the track 53 years later as a limited-edition track-day special.Read mor…',
-    url: 'https://jalopnik.com/lotus-unveils-the-type-66-a-never-raced-1970s-can-am-p-1850767149',
-    urlToImage:
-      'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/bd404024dfe4179e9ec43d84526d9383.jpg',
-    publishedAt: '2023-08-23T19:15:00Z',
-    content:
-      'Lotus founder Colin Chapman aspired to compete against the dominant McLaren cars in Can-Am but never progressed further than the design stage. However, the Lotus Type 66 will finally see the track 53… [+2250 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Gazzetta.it',
-    },
-    author: 'Davide Amato',
-    title: 'Dal Legia Varsavia alla Formula 1: il coinvolgimento dei tifosi con i fan token',
-    description:
-      "In Polonia, i tifosi del club hanno scelto la bandierina del calcio d'angolo ed il gagliardetto della squadra, mentre un supporter di Alonso ha potuto assistere dal vivo al GP di Monza",
-    url: 'https://www.gazzetta.it/fan-tokens/14-09-2023/fan-token-tifosi-sempre-piu-coinvolti-i-casi-di-legia-varsavia-e-formula-1.shtml',
-    urlToImage:
-      'https://dimages2.gazzettaobjects.it/files/og_thumbnail/uploads/2023/09/14/65035dd926db8.jpeg',
-    publishedAt: '2023-09-14T19:35:27Z',
-    content:
-      "Davide Amato\r\n14 settembre - MILANO\r\nDalla bandierina del calcio d'angolo al gagliardetto ufficiale. In Polonia la fantasia dei tifosi è la protagonista grazie alla magia dei gettoni digitali. Il mer… [+2371 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'Themarginalian.org',
-    },
-    author: 'Maria Popova',
-    title:
-      'Milan Kundera on the Power of Coincidences and the Musicality of How Chance Composes Our Lives',
-    description:
-      '"Human lives... are composed like music. Guided by his sense of beauty, an individual transforms a fortuitous occurrence... into a motif, which then assumes a permanent place in the composition of the individual\'s life."',
-    url: 'https://www.themarginalian.org/2023/09/11/milan-kundera-coincidenes/',
-    urlToImage:
-      'https://www.themarginalian.org/wp-content/uploads/2023/09/chance.jpg?fit=518%2C272&ssl=1',
-    publishedAt: '2023-09-11T16:29:15Z',
-    content:
-      'There is a model of reality in which every action you take, from falling in love with a particular person to reading this essay right now, is dictated by a Rube Goldberg machine of events set into mo… [+5462 chars]',
-  },
-  {
-    source: {
-      id: null,
-      name: 'F1news.ru',
-    },
-    author: 'Михаил Смирнов',
-    title: 'Витантонио Лиуцци – третий стюард Гран При Сингапура',
-    description:
-      'Бывший гонщик Формулы 1, FIA WEC, Super Formula, Super GT и стюард Формулы Е Витантонио Лиуцци приглашён FIA на роль стюарда Гран При Сингапура.',
-    url: 'https://www.f1news.ru/news/f1-169976.html',
-    urlToImage: 'https://cdn.f1ne.ws/userfiles/liuzzi/169976.jpg',
-    publishedAt: '2023-09-13T14:12:00Z',
-    content:
-      '1, FIA WEC, Super Formula, Super GT FIA .\r\n FIA FIA .\r\n 2023- : , , , , , , , , , , .',
-  },
-  {
-    source: {
-      id: null,
-      name: 'F1news.ru',
-    },
-    author: 'Михаил Смирнов',
-    title: 'Витантонио Лиуцци – третий стюард Гран При Италии',
-    description:
-      'Бывший гонщик Формулы 1, FIA WEC, Super Formula, Super GT и стюард Формулы Е Витантонио Лиуцци приглашён FIA на роль стюарда Гран При Италии.',
-    url: 'https://www.f1news.ru/news/f1-169730.html',
-    urlToImage: 'https://cdn.f1ne.ws/userfiles/liuzzi/169730.jpg',
-    publishedAt: '2023-08-30T16:58:00Z',
-    content:
-      '1, FIA WEC, Super Formula, Super GT FIA .\r\n IMSA, McLaren 3 .\r\n 2023- : , , , , , , , , , , .',
-  },
-  {
-    source: {
-      id: null,
-      name: 'Les Numériques',
-    },
-    author: 'Thibaud Gomès-Léal',
-    title: "Actualité : Grand Prix F1 d'Italie 2023 : chaînes, programme TV complet et horaires",
-    description:
-      "Après la reprise la semaine dernière, la Formule 1 garde le rythme ce week-end avec le Grand Prix d'Italie sur le circuit mythique de Monza. Découvrez le programme complet et les horaires de diffusion pour la France sur Canal+, Canal+ Sport et Canal+ Sport360.",
-    url: 'https://www.lesnumeriques.com/evenement-sportif/grand-prix-f1-d-italie-2023-chaines-programme-tv-complet-et-horaires-n212768.html',
-    urlToImage:
-      'https://cdn.lesnumeriques.com/optim/news/21/212768/bd996570-grand-prix-f1-d-italie-2023-programme-tv-complet-et-horaires_png__1200_630__0-505-1816-1458.jpg',
-    publishedAt: '2023-09-01T09:00:00Z',
-    content:
-      "Le Grand Prix d'Italie se déroule à Monza le 3 septembre 2023.\r\n© Shutterstock\r\nÇa y est, la Formule 1 a fait sa rentrée... et Max Verstappen s'accroche encore et toujours solidement à sa place de le… [+2028 chars]",
-  },
-  {
-    source: {
-      id: null,
-      name: 'Github.io',
+      name: "Open-std.org",
     },
     author: null,
-    title: 'Linear Algebra for Programmers',
-    description: 'From notation to meaning.',
-    url: 'https://coffeemug.github.io/spakhm.com/posts/01-lingalg-p1/linalg-p1.html',
-    urlToImage: 'https://spakhm.com/posts/01-lingalg-p1/xkcd-matrix.jpg',
-    publishedAt: '2023-09-01T17:59:30Z',
+    title: "Memory Safety Without Lifetime Parameters",
+    description: "Comments",
+    url: "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3444r0.html",
+    urlToImage: null,
+    publishedAt: "2024-10-21T01:06:11Z",
     content:
-      'From notation to meaning.\r\nThe most important thing about reading this blog post is to not get scared off by the formulas. The post may look like all the crap you normally skim over, so you may be te… [+13731 chars]',
+      "1 Abstract\r\nThis proposal describes the implementation of a memory-safe reference\r\ntype that does not use lifetime annotations. The goal of the proposal is\r\nto:\r\n<ol><li>Explore the viability of memo… [+35369 chars]",
   },
   {
     source: {
-      id: 'business-insider',
-      name: 'Business Insider',
+      id: null,
+      name: "ArchDaily",
     },
-    author: 'Taylor Rains',
+    author: "Enrique Tovar",
     title:
-      "A new all-business class airline is launching flights between the US and Bermuda — see what it'll be like aboard",
+      "Tijuana-San Diego as a Creative Beacon: Exploring the World Design Capital's Growing Influence",
     description:
-      'BermudAir will have a "phased introduction" of its all-business class model, starting with 88-seater Embraer E175s but only booked at half capacity.',
-    url: 'https://www.businessinsider.com/bermudair-all-business-class-airline-launching-flights-bermuda-2023-8',
-    urlToImage: 'https://i.insider.com/64e68b72912f290019aa24ed?width=1200&format=jpeg',
-    publishedAt: '2023-08-24T15:21:17Z',
+      "Global conferences, events, and exhibitions have profoundly influenced the evolution of architecture and design, serving as catalysts for innovation, new ideas, and pivotal debates. Some gatherings, like the historic Congrès International d'Architecture Moder…",
+    url: "https://www.archdaily.com/1023090/tijuana-san-diego-as-a-creative-beacon-exploring-the-world-design-capitals-growing-influence",
+    urlToImage:
+      "https://images.adsttc.com/media/images/6725/4265/abb6/a21e/9e58/c3f1/large_jpg/tijuana-san-diego-as-a-creative-beacon-insights-into-the-developing-impact-of-the-wdc-designation_1.jpg?1730495175",
+    publishedAt: "2024-11-05T07:30:00Z",
     content:
-      'Startup all-business class airline BermudAir is launching nonstop flights between Bermuda and the US on August 31.BermudAir\r\n<ul>\n<li>A new all-business class airline called BermudAir is launching fl… [+8114 chars]',
+      "Exchange Pavilion. Image © Paco Alvarez, Recording Architecture\r\nGlobal conferences, events, and exhibitions have profoundly influenced the evolution of architecture and design, serving as catalysts … [+9535 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "前端欧阳",
+    title: "让性能提升56%的Vue3.5响应式重构之“版本计数” - 前端欧阳",
+    description:
+      "前言 Vue3.5响应式重构主要分为两部分：双向链表和版本计数。在上一篇文章中我们讲了 双向链表 ，这篇文章我们接着来讲版本计数。 欧阳年底也要毕业了，加入欧阳的面试交流群（分享内推信息）、高质量vue源码交流群 版本计数 看这篇文章之前最好先看一下欧阳之前写的 双向链表 文章，不然有些部分可能看着",
+    url: "https://www.cnblogs.com/heavenYJJ/p/18529274",
+    urlToImage: null,
+    publishedAt: "2024-11-06T01:30:00Z",
+    content:
+      "Vue3.5\r\nvue\r\nSubDepLink\r\n<ul><li>SubwatchEffectwatchrendercomputed\r\n</li><li>Deprefreactivecomputed\r\n</li><li>LinkSubDepSubDepLinkDepSubLink\r\n</li></ul>computedSubDepcomputedwatchEffectcomputed\r\ncomp… [+8376 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Mattias Inghe",
+    title:
+      "HyperX QuadCast 2 review: A brilliant USB microphone gets even better",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Excellent sound quality for voices</li>\n\n\n\n<li>High sampling rate and bit depth for recording</li>\n\n\n\n<li>Wide compatibility</li>\n\n\n\n<li>More versatile light control</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>New multi-cont…",
+    url: "https://www.pcworld.com/article/2509663/hyperx-quadcast-2-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/PXL_20241024_081612892.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-08T15:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>E… [+7068 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Jon L. Jacobi",
+    title:
+      "TerraMaster D8 Hybrid enclosure review: Versatile, vast, USB storage",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Eight bays/slots for HDDs and SSDs</li>\n\n\n\n<li>Supports SATA and NVMe</li>\n\n\n\n<li>Runs two HDDs in RAID</li>\n\n\n\n<li>Affordable for the ilk</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>10Gbps caps NVMe performance at 1GBps</li…",
+    url: "https://www.pcworld.com/article/2487681/terramaster-d8-hybrid-enclosure-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/TerraMaster-D8-Hybrid-hero-b.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-28T14:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>E… [+6630 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Laura Pippig",
+    title:
+      "Fractal Design Refine review: A wonderful chair for long gaming sessions",
+    description:
+      "Fractal Design RefineExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Super ergonomic</li>\n\n\n\n<li>Very comfortable</li>\n\n\n\n<li>Many adjustment options</li>\n\n\n\n<li>Customization lumbar support</li>\n\n\n\n<li>Great neck cushion made of memory foam</li>\n\n\n\n<li>Pleasant fabric co…",
+    url: "https://www.pcworld.com/article/2501821/fractal-design-refine-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/Fractal-Design-Refine.png?w=1024",
+    publishedAt: "2024-11-04T15:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nFractal Design Refin… [+6508 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Theregister.com",
+    },
+    author: "Thomas Claburn",
+    title: "To kill memory safety bugs in C code, try the TrapC fork",
+    description:
+      "Memory-safe variant is planned for next year\nExclusive C and C++ programmers may not need to learn Rust after all to participate in the push for memory safety.…",
+    url: "https://www.theregister.com/2024/11/12/trapc_memory_safe_fork/",
+    urlToImage: "https://regmedia.co.uk/2022/03/23/shutterstock_c.jpg",
+    publishedAt: "2024-11-12T14:31:08Z",
+    content:
+      "Exclusive C and C++ programmers may not need to learn Rust after all to participate in the push for memory safety.\r\nSpeaking to us remotely from the W2140 conference in Bangkok, Thailand - which star… [+11861 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Automaton-media.com",
+    },
+    author: "Taijiro Yamanaka",
+    title:
+      "沈没世界オープンワールドサバイバル『Undefined Survivors』Steamで正式お披露目、年内に早期アクセス配信へ。かつての文明が沈んだ海を探索してサバイバル",
+    description:
+      "Runpathは10月17日、『Undefined Survivors』のSteamストアページを公開し、本作の概要を発表した。本作は、PC（Steam）向けに2024年内に早期アクセス配信予定。\n沈没世界オープンワールドサバイバル『Undefined Survivors』Steamで正式お披露目、年内に早期アクセス配信へ。かつての文明が沈んだ海を探索してサバイバル",
+    url: "https://automaton-media.com/articles/newsjp/undefinedsurvivors-20241017-314784/",
+    urlToImage:
+      "https://automaton-media.com/wp-content/uploads/2024/10/undefinedsurvivors-20241017-314784-header.jpg",
+    publishedAt: "2024-10-17T05:19:10Z",
+    content:
+      "Runpath1017Undefined SurvivorsSteamPCSteam2024\r\nUndefined Survivors\r\nRunpathITUndefined Survivors3\r\nUndefined SurvivorsPCSteam2024",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "兴杰",
+    title: 'Angular 19 "要" 来了⚡ - 兴杰',
+    description:
+      "前言 Angular 19 预计会在 11 月中旬发布，目前 (2024-10-27) 最新版本是 v19.0.0-next.11。 这次 v19 的改动可不小哦，新增了很多功能，甚至连 effect 都 breaking changes 了呢&#128580; 估计这回 Angular 团队又会一",
+    url: "https://www.cnblogs.com/keatkeat/p/18511853",
+    urlToImage: null,
+    publishedAt: "2024-10-28T14:55:00Z",
+    content:
+      "Angular 19 11 (2024-10-27) v19.0.0-next.11\r\n v19 effect breaking changes \r\n Angular ...\r\n Angular \r\n -- Angular Google \r\n v19 \r\n (SSRUnit TestingImage Optimization) \r\nInput with undefined initialValu… [+18185 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Psychology Today",
+    },
+    author: "Sophia Dembling",
+    title: "Living Between What Is Gone and What Is Yet to Be",
+    description:
+      "Personal Perspective: The loss of a spouse ended the life I had. Where do I go from here?",
+    url: "https://www.psychologytoday.com/intl/blog/widows-walk/202410/living-between-what-is-gone-and-what-is-yet-to-be",
+    urlToImage:
+      "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2024-10/evan-dennis-i--IN3cvEjg-unsplash.jpg?itok=jStPV0Py",
+    publishedAt: "2024-10-17T13:02:20Z",
+    content:
+      "When Tom died suddenly in 2020, I was 62 years old and vowed to anyone who would listen that the moment I was 65 and on Medicare, I was moving from Texas, as Tom and I had planned to do eventually. (… [+4952 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Juxtapoz.com",
+    },
+    author: "Editor@juxtapoz.com (Editor -- Evan)",
+    title: 'Luke Agada "Between Two Suns" @ Roberts Projects, Los Angeles',
+    description:
+      "Roberts Projects is pleased to present Between Two Suns, a solo exhibition of recent paintings by Chicago-based artist Luke Agada. As if mapping the blurred and sinewy terrain of his psyche, Agada paints in pursuit of visualizing the “third space”: an interna…",
+    url: "https://www.juxtapoz.com/news/painting/luke-agada-between-two-suns-roberts-projects-los-angeles/",
+    urlToImage:
+      "https://www.juxtapoz.com/media/k2/items/cache/b88b6327eb762cdbf0d452b3a4d0d7c0_L.jpg?t=1729727276",
+    publishedAt: "2024-10-24T07:00:30Z",
+    content:
+      "Roberts Projects is pleased to present Between Two Suns, a solo exhibition of recent paintings by Chicago-based artist Luke Agada. As if mapping the blurred and sinewy terrain of his psyche, Agada pa… [+2926 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Forbes",
+    },
+    author:
+      "Steven Wasserman, Contributor, \n Steven Wasserman, Contributor\n https://www.forbes.com/sites/stevenwasserman/",
+    title:
+      "Preparing Future Financial Leaders To Be Successful Post Graduation",
+    description:
+      "Employers firing Gen-Z employees because they lack key soft skills. Instructors can assist by having students practice these skills in their classes.",
+    url: "https://www.forbes.com/sites/stevenwasserman/2024/10/24/preparing-future-financial-leaders-to-be-successful-post-graduation/",
+    urlToImage:
+      "https://imageio.forbes.com/specials-images/imageserve/671a607c598d3a63c0b16f4b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    publishedAt: "2024-10-24T15:04:19Z",
+    content:
+      "People in a business meeting. Male leader of a multiracial business team greets a new team member ... [+] shaking his hand. Concept of business relationships, hiring and promotion.\r\ngetty\r\nI recently… [+4145 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Forbes",
+    },
+    author:
+      "Pierrick Bouffaron, Forbes Councils Member, \n Pierrick Bouffaron, Forbes Councils Member\n https://www.forbes.com/councils/forbesbusinesscouncil/people/pierrickbouffaron/",
+    title: "Rethinking Corporate Innovation Strategies From The Ground Up",
+    description: "Why do corporations still struggle to innovate?",
+    url: "https://www.forbes.com/councils/forbesbusinesscouncil/2024/10/30/rethinking-corporate-innovation-strategies-from-the-ground-up/",
+    urlToImage:
+      "https://imageio.forbes.com/specials-images/imageserve/6721504c01decff8dacce4b0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    publishedAt: "2024-10-30T12:45:00Z",
+    content:
+      "Pierrick Bouffaron, Operating Partner for Main Sequence, a global investor in technology with offices in Hong Kong, Luxembourg and NYC. \r\ngetty\r\nFor more than 20 years, academics and major business o… [+5907 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Catracalivre.com.br",
+    },
+    author: "Maíra Campos",
+    title:
+      "Esquenta Black Friday CVC: Pacotes de viagem a partir de 12x de R$ 69",
+    description:
+      "A operadora CVC antecipou a tradicional campanha de Black Friday e oferece pacotes de viagem por preços que começam em 12x R$ 69 por pessoa",
+    url: "https://catracalivre.com.br/viagem-livre/esquenta-black-friday-cvc-pacotes-de-viagem-a-partir-de-12x-de-r-69/",
+    urlToImage:
+      "https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=1280,h=680,fit=cover,format=jpeg/wp-content/uploads/2022/01/cvc.jpg",
+    publishedAt: "2024-11-01T22:01:07Z",
+    content:
+      "Já programando as próximas férias? A operadora CVC antecipou a tradicional campanha de Black Friday e oferece pacotes de viagem por preços que começam em 12x R$ 69 por pessoa, além de passagens aérea… [+3370 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Raw Story",
+    },
+    author: "Daniel Hampton",
+    title: "Judge smacks down slew of Trump-backed election board rule changes",
+    description:
+      "A judge has smacked down a slew of election rule changes passed by a Donald Trump-backed board in Georgia, according to a report.Fulton County Superior Court Judge Thomas Cox found the rules violated state laws, including one that would have required county e…",
+    url: "https://www.rawstory.com/georgia-elections-2669411927/",
+    urlToImage:
+      "https://www.rawstory.com/media-library/file-photo-an-election-worker-prepares-absentee-ballots-for-the-upcoming-general-election-before-they-are-mailed-to-voters-at.jpg?id=53801673&width=1200&height=600&coordinates=0%2C661%2C0%2C661",
+    publishedAt: "2024-10-16T23:47:57Z",
+    content:
+      "A judge has smacked down a slew of election rule changes passed by a Donald Trump-backed board in Georgia, according to a report.\r\nFulton County Superior Court Judge Thomas Cox found the rules violat… [+1267 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Zhangxinxu.com",
+    },
+    author: "张 鑫旭",
+    title: "Object.is/===、数组at/直接索引、substring/slice的区别",
+    description:
+      "介绍几个JS中非常雷同的方法或者语法，不知道诸位是否可知其中的差异？",
+    url: "https://www.zhangxinxu.com/wordpress/2024/10/js-object-is-array-at-substring-slice/",
+    urlToImage: null,
+    publishedAt: "2024-10-24T14:57:18Z",
+    content:
+      "by zhangxinxu from https://www.zhangxinxu.com/wordpress/?p=11387\r\nObject.is===\r\nObject.is()===\r\n1. NaN\r\nNaNNaNfalse\r\nNaN === NaN\r\n// false\r\nObject.is()true\r\nObject.is(NaN, NaN)\r\n// true\r\n2. +0-0\r\n===… [+764 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Theeverygirl.com",
+    },
+    author: "Emma Ginsberg",
+    title:
+      "The “Single Scale” Theory Could Explain Why You’re Not Finding the One",
+    description:
+      "Throughout my dating life, the idea of dating for “the one” has seemed…well…a little ridiculous. I’ve never known a dating\nThe post The “Single Scale” Theory Could Explain Why You’re Not Finding the One appeared first on The Everygirl.",
+    url: "http://theeverygirl.com/single-scale-theory/",
+    urlToImage:
+      "https://media.theeverygirl.com/wp-content/uploads/2024/10/single-scale-theory-teg-social.jpg",
+    publishedAt: "2024-10-23T13:24:03Z",
+    content:
+      "Throughout my dating life, the idea of dating for the one has seemedwella little ridiculous. Ive never known a dating world without dating apps, where countless options are algorithmically served to … [+6256 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Zenn.dev",
+    },
+    author: null,
+    title: "JavaScriptのProxyを使うときに気をつけること",
+    description:
+      "本稿では、Proxyを使う際はオブジェクトの原理をよく理解した上で、PreventExtensions時の挙動とPrivate Identifierに気をつけましょうという話をします。 そもそもProxyは何なのか Proxy は Reflect と対をなすプリミティブAPIで、オブジェクトの低レベルプロトコルの操作を提供します。 Proxyは、オブジェクトの低レベ...",
+    url: "https://zenn.dev/qnighy/articles/5562746d52712f",
+    urlToImage:
+      "https://res.cloudinary.com/zenn/image/upload/s--5vquzDn2--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:JavaScript%25E3%2581%25AEProxy%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AB%25E6%25B0%2597%25E3%2582%2592%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Masaki%2520Hara%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2l3aEI4dTM5cFZyM09sWVFLcUU5Z1ozV2d3MHlsMS03cUZad0huYWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png",
+    publishedAt: "2024-10-14T08:15:15Z",
+    content:
+      'ProxyPreventExtensionsPrivate Identifier\r\n Proxy\r\nProxyReflect API\r\nProxy\r\n{ foo: "bar" }[1, 2, 3], () =&gt; 42\r\nJavaScript\r\nObject\r\n<ul><li>Object.create(null)Object</li><li>import * as ...await imp… [+7157 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Zenn.dev",
+    },
+    author: null,
+    title: "弊社の「意識ﾁｮｯﾄ低いアーキテクチャ」10選",
+    description:
+      "「CTOの視点で選ぶ「最適な」アーキテクチャとは？」というイベントで登壇しました。 本記事は登壇資料をMarkdownとしてそのまま記事化したものです。スライドのほうが読みやすい方は、Speaker Deckで御覧ください！ 自己紹介1｜職歴、趣味など 職種・SNS 株式会社NoSchool CTO 2016年〜Webエンジニア。2019年〜現職 Twi...",
+    url: "https://zenn.dev/manalink_dev/articles/not-perfectionist-architecture",
+    urlToImage:
+      "https://res.cloudinary.com/zenn/image/upload/s--bfryVtPb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25BC%258A%25E7%25A4%25BE%25E3%2581%25AE%25E3%2580%258C%25E6%2584%258F%25E8%25AD%2598%25EF%25BE%2581%25EF%25BD%25AE%25EF%25BD%25AF%25EF%25BE%2584%25E4%25BD%258E%25E3%2581%2584%25E3%2582%25A2%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%2586%25E3%2582%25AF%25E3%2583%2581%25E3%2583%25A3%25E3%2580%258D10%25E9%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:meijin%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2FmZjliMGZlZjIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%259E%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%2520Tech%2520Blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2pPWmtyWk1nS3djRXl5a2w1X2lVTFZFVmtVVUpkNzkzcjlfejhERjRzPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+    publishedAt: "2024-10-29T18:21:49Z",
+    content:
+      "CTO\r\nhttps://rosca.connpass.com/event/333739/\r\nMarkdownSpeaker Deck\r\n1\r\n2\r\n<ul><li>ZennReact\r\n</li><li></li><li></li></ul>\r\nhttps://www.test-maker.app/\r\nhttps://zenn.dev/meijin/books/laravel-graduate… [+3422 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Fashionsnap.com",
+    },
+    author: null,
+    title:
+      "Encounter Hiroka Kitajima & Mone Koshikawa　お菓子やレースで彩る祝祭の日",
+    description:
+      "「Encounter=出逢い。」 世界中に存在する、アーティストたちとの巡り合い。多彩なクリエイターたちの才能を披露する場として、彼らが表現する、瑞々しく、独創的な作品の中から琴線に触れる作品を編集部がピックアップ。選び抜かれた、個性豊かな感性に想像を巡らせて。 A uniquely precious encounter with artists from all over the worl... このコンテンツは FASHIONSNAP が配信しています。",
+    url: "https://www.fashionsnap.com/article/2024-11-04/hiroka-kitajima-mone-koshikawa/",
+    urlToImage:
+      "https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=center/article/images/2024/10/hiroka-mone-2024010311-39b27d43-9e8b-4004-8600-9a8a574c7ddb.jpg",
+    publishedAt: "2024-11-04T09:59:00Z",
+    content:
+      "Encounter=\r\nA uniquely precious encounter with artists from all over the world.As a platform to exhibit and unveil the various talent, Lula Japans editorial team have selected the most vivid and genu… [+2237 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "The Star Online",
+    },
+    author: "The Star Online",
+    title:
+      "PAC recommends PM's Dept review relevance of National Professors Council",
+    description:
+      "KUALA LUMPUR: The Public Accounts Committee (PAC) has recommended that the Prime Minister's Department assesses the relevance of the National Professors Council (MPN) as a key driver of academic expertise in supporting the government's national development ef…",
+    url: "https://www.thestar.com.my/news/nation/2024/11/07/pac-recommends-pm039s-dept-review-relevance-of-national-professors-council",
+    urlToImage:
+      "https://apicms.thestar.com.my/uploads/images/2024/11/07/3005442.jpg",
+    publishedAt: "2024-11-07T09:36:00Z",
+    content:
+      "KUALA LUMPUR: The Public Accounts Committee (PAC) has recommended that the Prime Minister's Department assesses the relevance of the National Professors Council (MPN) as a key driver of academic expe… [+1886 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Github.io",
+    },
+    author: null,
+    title: "Sets, types and type checking",
+    description: "My currently understanding of types",
+    url: "https://kaleidawave.github.io/posts/sets-types-and-type-checking/",
+    urlToImage:
+      "https://kaleidawave.github.io/media/banners/sets-types-and-type-checking.png",
+    publishedAt: "2024-10-30T18:53:50Z",
+    content:
+      "Published on Wednesday 30th October 2024\r\nIn the process of building a type-checker I have learnt a lot of the details about the theory of types and sets. With all this information I thought I would … [+73764 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Dominic Bayley",
+    title: "HyperX Cloud Mix 2 review: A premium headset for busy gamers",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Compact and lightweight</li>\n\n\n\n<li>Looks like a headphone and can be used just as well as one</li>\n\n\n\n<li>Plush and comfortable earcups</li>\n\n\n\n<li>The cups swivel and the headband is adjustable</li>\n\n\n\n<li>The v…",
+    url: "https://www.pcworld.com/article/2493522/hyperx-cloud-mix-2-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/20240916_154845.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-25T15:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>C… [+8450 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Michael Crider",
+    title: "Mokibo Fusion review: A bad keyboard and a bad touchpad in one",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Tiny</li>\n\n\n\n<li>Super-thin</li>\n\n\n\n<li>Functional, techincally</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Hard to use as a keyboard</li>\n\n\n\n<li>Hard to use as a touchpad</li>\n\n\n\n<li>Integrated stand isn’t great</li>\n</ul>\n…",
+    url: "https://www.pcworld.com/article/2500996/mokibo-fusion-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/fusion-header.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-06T16:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>T… [+10104 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Michael Crider",
+    title:
+      "Hexgears Immersion A3 keyboard review: Budget price, flagship features",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Tons of features for the price</li>\n\n\n\n<li>Long battery life </li>\n\n\n\n<li>Hot-swap switches</li>\n\n\n\n<li>Light weight</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Screen is almost useless</li>\n\n\n\n<li>No per-game profiles</li>\n…",
+    url: "https://www.pcworld.com/article/2500988/hexgears-immersion-a3-keyboard-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/hexgears-header.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-29T13:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>T… [+8340 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Mark Hachman",
+    title: "Coolpo AI Huddle Mini Lite review: A unique AI-powered 4K webcam",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Image quality is quite good</li>\n\n\n\n<li>AI features feel well thought-out</li>\n\n\n\n<li>Very good noise cancellation</li>\n\n\n\n<li>Innovative solution for group settings</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>4K turns to 10…",
+    url: "https://www.pcworld.com/article/2503446/coolpo-ai-huddle-mini-lite-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/Coolpo-Ai-Huddle-Mini-Lite-product.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-05T15:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>I… [+7944 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Jon L. Jacobi",
+    title:
+      "Vantrue Nexus 2X dash cam review: Two-channel GPS goodness with optional LTE",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>GPS and magnetic mount</li>\n\n\n\n<li>Very good front captures up to 1944p (4:3)</li>\n\n\n\n<li>Interior captures with infrared</li>\n\n\n\n<li>Supports roll-your-own LTE for remote monitoring with optional module</li>\n</ul…",
+    url: "https://www.pcworld.com/article/2477736/vantrue-nexus-2x-dash-cam-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/Viofo-Nexus-X2-hero.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-30T13:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>G… [+7350 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Michael Crider",
+    title: "Lemokey X0 keypad review: A great add-on for any PC gamer",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Great form factor</li>\n\n\n\n<li>Cheap</li>\n\n\n\n<li>Mechanical switches</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>No adjustable feet</li>\n\n\n\n<li>No per-game profiles</li>\n</ul>\n\r\n\n\n\n\nOur Verdict \r\n\nThe Lemokey X0 is a great en…",
+    url: "https://www.pcworld.com/article/2501003/lemokey-x0-keypad-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/x0-header.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-01T10:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>G… [+8649 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Benjamin Kratsch",
+    title:
+      "Call of Duty: Black Ops 6’s campaign is a feast for James Bond fans",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Long 10-hour campaign</li>\n\n\n\n<li>Very well written</li>\n\n\n\n<li>Excellent actors who bring CoD to James Bond level</li>\n\n\n\n<li>Finally staged on a much larger scale again</li>\n\n\n\n<li>Beautiful locations: casinos, …",
+    url: "https://www.pcworld.com/article/2515282/call-of-duty-black-ops-6-campaign-is-a-feast-for-james-bond-fans.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/BlackOps6_01_Aufmacher.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-08T17:30:13Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>L… [+9790 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Raw Story",
+    },
+    author: "Sarah K. Burris",
+    title:
+      "University of Florida's $18M basketball coach accused of stalking students: report",
+    description:
+      'The University of Florida men\'s basketball coach, Todd Golden, has been accused of stalking and sexually harassing students, the school newspaper, The Alligator, reported Friday. Documents obtained by the newspaper show "an undefined number of women" who file…',
+    url: "https://www.rawstory.com/university-of-florida-coach/",
+    urlToImage:
+      "https://www.rawstory.com/media-library/nov-4-2024-jacksonville-florida-usa-florida-gators-head-coach-todd-golden-looks-on-against-the-south-florida-bulls-during-t.jpg?id=54437457&width=1200&height=600&coordinates=0%2C456%2C0%2C456",
+    publishedAt: "2024-11-08T19:51:19Z",
+    content:
+      "The University of Florida men's basketball coach, Todd Golden, has been accused of stalking and sexually harassing students, the school newspaper, The Alligator, reported Friday. \r\nDocuments obtained… [+1727 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Dou.ua",
+    },
+    author: "Dmytro Skorokhod",
+    title:
+      "Тестові для Python-інженерів: приклади, критерії оцінки та причини відмов кандидатам",
+    description:
+      "Як дізнатися, що кандидат на вакансію дійсно вміє виконувати свою роботу? Не завжди знання напам’ять відповідей на теоретичні запитання свідчить про здатність впоратись із реальними завданнями. Ми звернулися до IT-компаній на українському ринку, які наймають …",
+    url: "https://dou.ua/lenta/articles/python-test-tasks-examples/",
+    urlToImage: "https://s.dou.ua/img/announces/python_840x460_1.png",
+    publishedAt: "2024-10-15T07:01:16Z",
+    content:
+      ",     ?       .    IT-, Python-,   , ,   -,   .\r\n«     »\r\n , Principal Python Engineer  Intellias\r\n   .   . ,   .   : -   .  ,   ,     ,   .  ,   , , , ,   : , .   Intellias  .\r\n ,    ,    .   , , . … [+3942 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "Yscliking",
+    title: "2024强网杯pwn short wp - Yscliking",
+    description:
+      "这时2024强网杯的pwn部分的short的WP 分析以下程序的基本安全措施 *] '/home/ysly/solve/tmp/short' Arch: i386-32-little RELRO: Partial RELRO Stack: No canary found NX: NX enabled",
+    url: "https://www.cnblogs.com/Ysliking/p/18514572",
+    urlToImage: null,
+    publishedAt: "2024-10-29T14:09:00Z",
+    content:
+      "2024pwnshortWP\r\n*] '/home/ysly/solve/tmp/short'\r\n Arch: i386-32-little\r\n RELRO: Partial RELRO\r\n Stack: No canary found\r\n NX: NX enabled\r\n PIE: No PIE (0x8048000)\r\n Stripped: No\r\nNXghidraread,gets\r\n/*… [+3341 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "木子七",
+    title: "Js面向对象 - 木子七",
+    description:
+      "程序就是对现实世界的抽象,一个事物抽象到程序中后就变成了对象,在程序的世界中，一切皆对象 面向对象的编程指，程序中的所有操作都是通过对象来完成 做任何事情之前都需要先找到它的对象，然后通过对象来完成各种操作 一个事物通常由两部分组成：数据和功能 一个对象由两部分组成：属性和方法 事物的数据到了对象中",
+    url: "https://www.cnblogs.com/Mickey-7/p/18467887",
+    urlToImage: null,
+    publishedAt: "2024-10-15T08:56:00Z",
+    content:
+      ',,\r\nconst user = {\r\n // \r\n name:"seven",\r\n age:18,\r\n weight:100,\r\n// \r\n get_info(){\r\n console.log(`:${this.name},${this.age},:${this.weight}`)\r\n },\r\nset_age(age){\r\n this.age = age\r\n }\r\n}\r\ncalss\r\n<ul>… [+5688 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "zhongcx",
+    title: "鸿蒙开发案例：七巧板 - zhongcx",
+    description:
+      "【1】引言（完整代码在最后面） 本文介绍的拖动七巧板游戏是一个简单的益智游戏，用户可以通过拖动和旋转不同形状的七巧板块来完成拼图任务。整个游戏使用鸿蒙Next框架开发，利用其强大的UI构建能力和数据响应机制，实现了流畅的用户体验。 【2】环境准备 电脑系统：windows 10 开发工具：DevEc",
+    url: "https://www.cnblogs.com/zhongcx/p/18534029",
+    urlToImage: null,
+    publishedAt: "2024-11-07T13:27:00Z",
+    content:
+      "1\r\nNextUI\r\n2\r\nwindows 10\r\nDevEco Studio NEXT Beta1 Build Version: 5.0.3.806\r\nAPI 12\r\nMate 60 Pro\r\nArkTSArkUI\r\n3\r\n1. TangramBlock TangramBlockUI\r\n2. Next@ObservedV2@TraceTangramBlockUIUI\r\n3. UI NextUI… [+6530 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Javacodegeeks.com",
+    },
+    author: "Eleftheria Drosopoulou",
+    title: "Safe Rust & C/C++ Interoperability: Essential Best Practices",
+    description:
+      "Rust & C/C++ are both powerful systems programming languages, but they excel in different areas. Rust is known for its memory safety features, while C and C++ provide fine-grained control over hardware and are widely used in legacy systems. Integrating Rust w…",
+    url: "https://www.javacodegeeks.com/2024/10/safe-rust-c-c-interoperability-essential-best-practices.html",
+    urlToImage:
+      "https://www.javacodegeeks.com/wp-content/uploads/2019/03/web-development-logo.jpg",
+    publishedAt: "2024-10-30T17:32:00Z",
+    content:
+      "Rust &amp; C/C++ are both powerful systems programming languages, but they excel in different areas. Rust is known for its memory safety features, while C and C++ provide fine-grained control over ha… [+4934 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Javacodegeeks.com",
+    },
+    author: "Eleftheria Drosopoulou",
+    title: "Tackling Advanced TypeScript Issues in 2024",
+    description:
+      "TypeScript continues to dominate the development landscape, offering strong typing, robust tooling, and improved maintainability. However, with power comes complexity, and developers often face advanced issues. This article dives into the nuanced problems you…",
+    url: "https://www.javacodegeeks.com/2024/11/tackling-advanced-typescript-issues-in-2024.html",
+    urlToImage:
+      "https://www.javacodegeeks.com/wp-content/uploads/2023/06/typescript-logo.jpg",
+    publishedAt: "2024-11-06T17:28:00Z",
+    content:
+      "TypeScript continues to dominate the development landscape, offering strong typing, robust tooling, and improved maintainability. However, with power comes complexity, and developers often face advan… [+5160 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Symfony.com",
+    },
+    author: "Fabien Potencier",
+    title: "Symfony 7.2.0-RC1 released",
+    description:
+      "Symfony 7.2.0-RC1 has just been released.\nHere is the list of the most important changes since 7.2.0-BETA2:\n\n feature #58852 [TypeInfo] Remove @experimental tag (@mtarld)\nfeature #57630 [TypeInfo] Redesign Type methods and nullability (@mtarld)\nsecurity…",
+    url: "https://symfony.com/blog/symfony-7-2-0-rc1-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+    urlToImage: "https://symfony.com/images/opengraph/symfony.png",
+    publishedAt: "2024-11-13T15:19:16Z",
+    content:
+      "Symfony 7.2.0-RC1 has just been released.\r\nHere is the list of the most important changes since 7.2.0-BETA2:\r\n<ul><li>feature #58852 [TypeInfo] Remove @experimental tag (@mtarld)</li><li>feature #576… [+1888 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Enechain.com",
+    },
+    author: null,
+    title:
+      "【QA業務効率化】GAS + Notion APIを用いたテスト進捗報告の自動生成 - enechain Tech Blog",
+    description:
+      "はじめに enechainでのテスト管理 テストケースとテスト進捗の管理 バグチケットの管理 日々のテスト進捗報告の自動生成 テスト進捗情報の取得 バグチケット情報の取得 報告の整形とSlackへのポスト 進捗報告生成のトリガー 今後の展望 まとめ はじめに こんにちは！enechainでQAチームのマネージャーを務める杉田 (@sug...",
+    url: "https://techblog.enechain.com/entry/automated-daily-test-progress-reporting",
+    urlToImage:
+      "https://cdn.image.st-hatena.com/image/scale/365c6bb188ed8b9d1721fc3c8eb4d1785fdf9f17/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fe%2Fenechain%2F20241106%2F20241106103051.png",
+    publishedAt: "2024-11-06T02:30:22Z",
+    content:
+      "enechainQA (@sug1san) \r\nQAQAQA\r\nGAS (Google Apps Script) Notion API\r\nenechain\r\nenechain\r\nenechainQAQA1QAQAtaise-\r\ntechblog.enechain.com\r\nGoogleTestRailGoogle\r\nGoogle\r\nNotionenechain2022JIRA / Conflue… [+3136 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Whyevolutionistrue.com",
+    },
+    author: "whyevolutionistrue",
+    title: "Bill Maher on the unlikelihood of an ”October Surprise”",
+    description:
+      "Here’s Bill Maher’s monologue from his most recent Real Time show, arguing that voters should not expect an “October surprise”.  He argues that because Trump has been so persistently awful in familiar ways, that there will be no change in his character before…",
+    url: "https://whyevolutionistrue.com/2024/10/20/bill-maher-on-an-october-surprise/",
+    urlToImage:
+      "https://whyevolutionistrue.com/wp-content/uploads/2023/10/weit-cover-kindle-158s.png",
+    publishedAt: "2024-10-20T16:30:12Z",
+    content:
+      "Here’s Bill Maher’s monologue from his most recent Real Time show, arguing that voters should not expect an “October surprise”.  He argues that because Trump has been so persistently awful in familia… [+1692 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Symfony.com",
+    },
+    author: "Fabien Potencier",
+    title: "Symfony 7.1.8 released",
+    description:
+      "Symfony 7.1.8 has just been released.\nHere is the list of the most important changes since 7.1.7:\n\n security #cve-2024-50342 [HttpClient] Resolve hostnames in NoPrivateNetworkHttpClient (@nicolas-grekas)\nsecurity #cve-2024-51996 [Security] Check owner…",
+    url: "https://symfony.com/blog/symfony-7-1-8-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+    urlToImage: "https://symfony.com/images/opengraph/symfony.png",
+    publishedAt: "2024-11-13T14:52:10Z",
+    content:
+      "Symfony 7.1.8 has just been released.\r\nHere is the list of the most important changes since 7.1.7:\r\n<ul><li>security #cve-2024-50342 [HttpClient] Resolve hostnames in NoPrivateNetworkHttpClient (@nic… [+1608 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "[Removed]",
+    },
+    author: null,
+    title: "[Removed]",
+    description: "[Removed]",
+    url: "https://removed.com",
+    urlToImage: null,
+    publishedAt: "2024-11-07T05:14:23Z",
+    content: "[Removed]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Forbes",
+    },
+    author:
+      "Ashley Case, Contributor, \n Ashley Case, Contributor\n https://www.forbes.com/sites/ashleycase/",
+    title:
+      "Red Flags Aren’t Just For Exes: Trouble In Estate Planning Paradise",
+    description:
+      "Is it your ex-boyfriend or bad estate planning advice? Red flags in relationships can also be red flags in estate planning. Be wary of advisors who use these phrases.",
+    url: "https://www.forbes.com/sites/ashleycase/2024/10/16/red-flags-arent-just-for-exes-trouble-in-estate-planning-paradise/",
+    urlToImage:
+      "https://imageio.forbes.com/specials-images/imageserve/670f0aee4565f1a0f9c3c306/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    publishedAt: "2024-10-16T04:30:24Z",
+    content:
+      "Red flags can signal a warning to be careful of pending romantic or estate planning disaster.\r\ngetty\r\nSome seemingly innocent comments can quickly sour a budding relationship, signaling underlying is… [+8754 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Deadline",
+    },
+    author: "Zac Ntim",
+    title:
+      "Athina Rachel Tsangari On Her Emotional Return To Greece With ‘Harvest’ & Plans For Her Next Feature, A “Screwball Heist Set In The Near Future”",
+    description:
+      "Unlike most late fall festivals Thessaloniki in Northern Greece regularly draws packed crowds of passionate and youthful patrons, largely thanks to the city’s significant student population. On Saturday at the festival’s Olympia Theatre, however, a distinct w…",
+    url: "http://deadline.com/2024/11/athina-rachel-tsangari-greece-harvest-screwball-heist-thessaloniki-film-festival-2024-1236166099/",
+    urlToImage:
+      "https://deadline.com/wp-content/uploads/2024/11/GettyImages-2181277911.jpg?w=1024",
+    publishedAt: "2024-11-04T11:51:07Z",
+    content:
+      "Unlike most late fall festivals Thessaloniki in Northern Greece regularly draws packed crowds of passionate and youthful patrons, largely thanks to the city’s significant student population. On Satur… [+9493 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "凪风sama",
+    title: "从编译链接到cmake - 凪风sama",
+    description:
+      ".c(.cpp)文件到可执行文件 对于一份简单的.c/.cpp为后缀的源文件，他所使用的语言是人类可以阅读并看懂的，但是对于计算机来说，其可理解并执行的是二进制的机器码。 也就是说，计算机所能运行的是二进制的机器码，而早期为了方便人类阅读，使用一些简单的助记符来代替机器码，比如MOV,LOOP...",
+    url: "https://www.cnblogs.com/CrescentWind/p/18528965",
+    urlToImage: null,
+    publishedAt: "2024-11-05T14:05:00Z",
+    content:
+      '.c(.cpp)\r\n.c/.cpp\r\nMOV,LOOP...cc++python\r\n#include &lt;stdio.h&gt;\r\nint main()\r\n{\r\n printf("Hello, world!\\n");\r\n return 0;\r\n} // 01010101....\r\nccpp\r\ngcc()clang(jetbrain)msvc()\r\ngccgcc --versiongccgcc… [+2217 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Packetstormsecurity.com",
+    },
+    author: null,
+    title: "ABB Cylon Aspect 3.08.00 Off-By-One",
+    description:
+      "A vulnerability was identified in a ABB Cylon Aspect version 3.08.00 where an off-by-one error in array access could lead to undefined behavior and potential denial of service. The issue arises in a loop that iterates over an array using a less than or equals…",
+    url: "https://packetstormsecurity.com/files/182513/ZSL-2024-5861.txt",
+    urlToImage: null,
+    publishedAt: "2024-11-05T15:25:39Z",
+    content:
+      "ABB Cylon Aspect 3.08.00 (log(Mix/Yum)Lookup.php) Off-by-One Error in Log ParsingVendor: ABB Ltd.Product web page: https://www.global.abbAffected version: NEXUS Series, MATRIX-2 Series, ASPECT-Enterp… [+3173 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Thegospelcoalition.org",
+    },
+    author: "Ian Harber",
+    title: "Don’t Overlook the Church in Your Search for Jesus",
+    description:
+      "‘Invisible Jesus’ is more likely to entrench the divide between the church and those who’ve been hurt by it than it is to heal relationships, strengthen the faith of deconstructors, and solve the problems they encounter in the church.",
+    url: "https://www.thegospelcoalition.org/reviews/invisible-jesus-book/",
+    urlToImage:
+      "https://media.thegospelcoalition.org/wp-content/uploads/2024/10/23192137/invisible-jesus-book-1.jpg",
+    publishedAt: "2024-10-30T04:02:00Z",
+    content:
+      "Recent studies reveal about 10 million people have been labeled dechurched casualties. These are folks whove left the church over the past 25 years because of their negative experiences, and they hav… [+8021 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Wowebook.org",
+    },
+    author: "WOW! eBook",
+    title: "C++ Brain Teasers",
+    description:
+      "eBook Details: Paperback: 140 pages Publisher: WOW! eBook (July 9, 2024) Language: English ISBN-10: 8888650516 ISBN-13: 978-8888650516 eBook Description: C++ Brain Teasers: Exercise Your Mind C++ is famous for getting all the default behaviors wrong and for s…",
+    url: "https://www.wowebook.org/cplusplus-brain-teasers/",
+    urlToImage: null,
+    publishedAt: "2024-10-14T17:35:15Z",
+    content:
+      "eBook Details:\r\n<ul><li>Paperback: 140 pages</li><li>Publisher: WOW! eBook (July 9, 2024)</li><li>Language: English</li><li>ISBN-10: 8888650516</li><li>ISBN-13: 978-8888650516</li></ul>eBook Descript… [+1895 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Zenn.dev",
+    },
+    author: null,
+    title:
+      "（改訂版）三項演算子は本当に読みにくいのか。TypeScript で分かった 後置 else if メソッド の効果",
+    description:
+      "本記事はこちらの改訂版です。コードも改良しています。 三項演算子は本当に読みにくいのか コードをドキュメントのように読みやすくすることは非常に多くのメリットがあります。 そして、プログラミング言語自体にも読みやすくするためだけに存在する構文があります。 その１つが三項演算子です。 いやいや、三項演算子...",
+    url: "https://zenn.dev/takakiriy/articles/edba260bda5aa3",
+    urlToImage:
+      "https://res.cloudinary.com/zenn/image/upload/s--J_oX2vpb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25EF%25BC%2588%25E6%2594%25B9%25E8%25A8%2582%25E7%2589%2588%25EF%25BC%2589%25E4%25B8%2589%25E9%25A0%2585%25E6%25BC%2594%25E7%25AE%2597%25E5%25AD%2590%25E3%2581%25AF%25E6%259C%25AC%25E5%25BD%2593%25E3%2581%25AB%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25AB%25E3%2581%258F%25E3%2581%2584%25E3%2581%25AE%25E3%2581%258B%25E3%2580%2582TypeScript%2520%25E3%2581%25A7%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E5%25BE%258C%25E7%25BD%25AE%2520else%2520if%2520%25E3%2583%25A1%25E3%2582%25BD%25E3%2583%2583%25E3%2583%2589%2520%25E3%2581%25AE%25E5%258A%25B9%25E6%259E%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Takakiri%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2gwNE5Wa291bkxmWnVxTW81QkRDNlBzX09zUmlpajkwUjhKS0RHPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png",
+    publishedAt: "2024-11-11T04:25:09Z",
+    content:
+      'const value = x ===1?"A":"B";\r\nTypeScript \r\n TypeScript Python \r\nconst message =_(`: ${name}`).elseIf(!name).then("");\r\nif(!name){var message ="";}else{var message =`: ${name}`;}\r\n: else if \r\nPython … [+4507 chars]',
+  },
+  {
+    source: {
+      id: null,
+      name: "Human Rights Watch",
+    },
+    author: "Human Rights Watch",
+    title: "New Mali Law Disastrous for LGBT People",
+    description:
+      "Mali’s Transitional National Council passed a law on October 31 that makes homosexuality a criminal offense. The new legislation will intensify risks of stigma, discrimination, and violence against lesbian, gay, bisexual, and transgender (LGBT) people through…",
+    url: "https://www.hrw.org/news/2024/11/06/new-mali-law-disastrous-lgbt-people",
+    urlToImage:
+      "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2024/11/202411afr_mali_monument%20of%20peace.jpeg?h=34660f4b&itok=uGYSt79i",
+    publishedAt: "2024-11-06T18:04:14Z",
+    content:
+      "Malis Transitional National Council passed a law on October 31 that makes homosexuality a criminal offense. The new legislation will intensify risks of stigma, discrimination, and violence against le… [+1925 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Elconfidencialdigital.com",
+    },
+    author: "P.L.",
+    title: "24 HORAS CON SEBASTIÁN: UN DÍA DE SOLIDARIDAD Y ESPERANZA",
+    description:
+      "Confidencial Digital. Contenidos confidenciales en español orientado a personas informadas que hoy en día desean estar aún más informadas",
+    url: "https://www.elconfidencialdigital.com/articulo/tendencias/24-horas-sebastian-dia-solidaridad-esperanza/20241016094228859531.html",
+    urlToImage:
+      "https://www.elconfidencialdigital.com/media/elconfidencialdigital/images/2024/10/16/2024101609422796433.jpg",
+    publishedAt: "2024-10-16T09:42:28Z",
+    content:
+      "Sabemos que la investigación y el apoyo a las personas afectadas por enfermedades graves, como el cáncer infantil, son esenciales para avanzar hacia un futuro más esperanzador. En esta ocasión, quere… [+1811 chars]",
+  },
+  {
+    source: {
+      id: "al-jazeera-english",
+      name: "Al Jazeera English",
+    },
+    author: "Shola Lawal",
+    title: "Why is Ukraine’s army facing a desertion crisis?",
+    description:
+      "Thousands of men have abandoned their posts, blaming poor conditions on the front lines.",
+    url: "https://www.aljazeera.com/news/2024/10/21/why-is-ukraines-army-facing-a-desertion-crisis",
+    urlToImage:
+      "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24115536790930-1714005647.jpg?resize=1920%2C1440",
+    publishedAt: "2024-10-21T08:37:10Z",
+    content:
+      "More Ukrainian soldiers have deserted the army this year than ever since the onset of a war that analysts say has seen both sides make gains and report losses.\r\nProsecutions for desertion from Ukrain… [+12751 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Matthew S. Smith",
+    title: "Acer Swift 14 AI review: A humble laptop with lengthy battery life",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Enjoyable keyboard</li>\n\n\n\n<li>Lots of wired, wireless connectivity</li>\n\n\n\n<li>Well-rounded CPU and integrated GPU performance</li>\n\n\n\n<li>Lengthy battery life</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Boring design </li>…",
+    url: "https://www.pcworld.com/article/2514033/acer-swift-14-ai-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/acer-swift-14-ai-3.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-12T14:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>E… [+13038 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "Cnblogs.com",
+    },
+    author: "粥里有勺糖",
+    title: "迷惑代码赏析第1期 - 粥里有勺糖",
+    description:
+      "开发工作中遇到了许多的 ⛰ 代码，这个系列里就大家分享&吐槽一下。 同时也分享一下最近深度使用的专业编程显示器‍ 攒够素材就更新下一期，有好的素材也欢迎投稿，推荐！ 1 random了寂寞 目的是将目标值和一个[0,100)的随机数比较，但结果一直是 FAILED。 让",
+    url: "https://www.cnblogs.com/roseAT/p/18511918",
+    urlToImage: null,
+    publishedAt: "2024-10-29T01:34:00Z",
+    content:
+      "&amp;\r\n1 random\r\n[0,100)FAILED\r\nfunction can(compareTo) {\r\n return Number.parseInt(Math.random * 100) &gt; compareTo\r\n ? Status.SUCCESS\r\n : Status.FAILED\r\n}\r\nMath.randomNaN\r\nfunction can(compareTo) {… [+5736 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Matthew S. Smith",
+    title: "Gigabyte G34WQCP review: An excellent budget ultrawide monitor",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Plenty of video inputs </li>\n\n\n\n<li>Good SDR brightness </li>\n\n\n\n<li>Excellent contrast ratio </li>\n\n\n\n<li>Solid color gamut and accuracy </li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Stand requires use of screws </li>\n\n\n\n<li…",
+    url: "https://www.pcworld.com/article/2496292/gigabyte-g34wqcp-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/11/gigabyte-g34wqcp-2-1.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-11-13T11:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>P… [+12783 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Matthew S. Smith",
+    title: "MSI Stealth A16 AI+ review: A jack-of-all-trades",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Chassis feels durable</li>\n\n\n\n<li>Great wired and wireless connectivity</li>\n\n\n\n<li>Well-rounded CPU and GPU performance</li>\n\n\n\n<li>Lengthy battery life </li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Awkward keyboard and touc…",
+    url: "https://www.pcworld.com/article/2500090/msi-stealth-a16-ai-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/msi-stealth-a16-a1-1.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-29T12:00:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>C… [+13229 chars]",
+  },
+  {
+    source: {
+      id: null,
+      name: "PCWorld",
+    },
+    author: "Author: Michael Crider",
+    title: "Razer BlackWidow V4 Pro 75% review: Keyboards don’t need screens",
+    description:
+      "At a glanceExpert's Rating\r\n\n\nPros\r\n\n<ul>\n<li>Excellent typing</li>\n\n\n\n<li>Incredible battery saver mode</li>\n\n\n\n<li>PBT keycaps (finally!)</li>\n</ul>\n\r\n\n\n\n\nCons\r\n\n<ul>\n<li>Screen is unnecessary </li>\n\n\n\n<li>Single-day battery with lights on</li>\n\n\n\n<li>Huge …",
+    url: "https://www.pcworld.com/article/2501009/razer-blackwidow-v4-pro-75-review.html",
+    urlToImage:
+      "https://www.pcworld.com/wp-content/uploads/2024/10/razer-header.jpg?quality=50&strip=all&w=1024",
+    publishedAt: "2024-10-31T14:30:00Z",
+    content:
+      "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nAt a glance<ul><li>E… [+13596 chars]",
   },
 ];
-
-export default articles;
